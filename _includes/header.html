@@ -1,0 +1,23 @@
+<header class="site-header">
+    <div class="wrapper">
+
+        <div class="logo">
+            <a href="{{ site.baseurl }}/">
+                <img src="{{ site.baseurl }}{% link assets/theme/logo.png %}" alt="OpenCV logo"/>
+            </a>
+        </div>
+
+        <nav class="site-nav">
+            {% assign nav_pages = "About,News,Releases,Platforms,Books,Links,License" | split: ',' %}
+            {% for t in nav_pages %}
+            {% for p in site.pages %}
+            {% if p.title == t %}
+            <div class="site-nav-item">
+                <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+            </div>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </nav>
+    </div>
+</header>

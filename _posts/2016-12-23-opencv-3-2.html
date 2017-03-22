@@ -1,0 +1,112 @@
+---
+date: 2016-12-23 15:19:00
+layout: post
+permalink: opencv-3-2.html
+published: true
+short: "OpenCV 3.2 is out. It's a long-awaited update to OpenCV 3.x release series,
+    with tons of improvements and bug fixes."
+title: OpenCV 3.2
+---
+<p>Dear OpenCV users!</p>
+
+<p>1 year after 3.1 release and after the OpenCV core team has moved back to Intel we are pleased to announce OpenCV 3.2 release, with tons of improvements and bug fixes. <strong>969</strong> patches have been merged and <strong>478</strong> issues (bugs & feature requests) have been closed.</p>
+
+<p>Big thanks to everyone who participated! If you contributed something but your name is missing, please, let us know.</p>
+
+<p>Merry Christmas and Happy New Year!</p>
+
+<h3>Changes</h3>
+
+<p>The detailed list of changes since 3.1 can be found at <a href="{{ site.link_wiki }}/ChangeLog">{{ site.link_wiki }}/ChangeLog</a>. Here is the short summary:</p>
+
+<p>Results from 11 GSoC 2016 projects have been submitted to the library:</p>
+
+<ul>
+    <li>Ambroise Moreau (Delia Passalacqua) – sinusoidal patterns for structured light and phase unwrapping module</li>
+
+    <li>Alexander Bokov (Maksim Shabunin) – DIS optical flow (excellent dense optical flow algorithm that is both significantly better and significantly faster than Farneback’s algorithm – our baseline), and learning-based color constancy algorithms implementation</li>
+
+    <li>Tyan Vladimir (Antonella Cascitelli) – CNN based tracking algorithm (GOTURN)</li>
+
+    <li>Vladislav Samsonov (Ethan Rublee) – PCAFlow and Global Patch Collider algorithms implementation</li>
+
+    <li>João Cartucho (Vincent Rabaud) – Multi-language OpenCV Tutorials in Python, C++ and Java</li>
+
+    <li>Jiri Horner (Bo Li) – New camera model and parallel processing for stitching pipeline</li>
+
+    <li>Vitaliy Lyudvichenko (Anatoly Baksheev) – Optimizations and improvements of dnn module</li>
+
+    <li>Iric Wu (Vadim Pisarevsky) – Base64 and JSON support for file storage. Use names like “myfilestorage.xml?base64” when writing file storage to store big chunks of numerical data in base64-encoded form.</li>
+
+    <li>Edgar Riba (Manuele Tamburrano, Stefano Fabri) – tiny_dnn improvements and integration</li>
+
+    <li>Yida Wang (Manuele Tamburrano, Stefano Fabri) – Quantization and semantic saliency detection with tiny_dnn</li>
+
+    <li>Anguelos Nicolaou (Lluis Gomez) – Word-spotting CNN based algorithm</li>
+
+</ul>
+
+
+<p>Big thanks to all the participants!</p>
+
+
+<p>There have been many contributions besides GSoC:</p>
+
+<ul>
+    <li>Greatly improved and accelerated dnn module in opencv_contrib:</li>
+
+    <ul>
+    <li>Many new layers, including deconvolution, LSTM etc.</li>
+    <li>Support for semantic segmentation and SSD networks with samples.</li>
+    <li>TensorFlow importer + sample that runs Inception net by Google.</li>
+    </ul>
+
+    <li>More image formats and camera backends supported</li>
+
+    <li>Interactive camera calibration app</li>
+
+    <li>Multiple algorithms implemented in opencv_contrib</li>
+
+    <li>Supported latest OSes, including Ubuntu 16.04 LTS and OSX 10.12</li>
+
+    <li>Lot’s of optimizations for IA and ARM archs using parallelism, vector instructions and new OpenCL kernels.</li>
+
+    <li>OpenCV now can use vendor-provided OpenVX and LAPACK/BLAS (including Intel MKL, Apple’s Accelerate, OpenBLAS and Atlas) for acceleration</li>
+
+</ul>
+
+<h3>Contributors</h3>
+
+<p>We would like to sincerely thank everybody who helped us to prepare the release, who submitted new functionality, patches, who submitted bug reports, who mentored the students, who donated to OpenCV.org, the companies who funded development and everybody else to helped us in one or another way.</p>
+
+<p>This is a list of the contributors, based on the git logs:</p>
+
+<h4>opencv</h4>
+
+<p>Alexander Alekhin, Vitaly Tuzov, Tomoaki Teshima, Maksim Shabunin, Vladislav Sovrasov, Ilya Lavrenov, Rostislav Vasilikhin, k-shinotsuka, StevenPuttemans, Pavel Rojtberg, MYLS, Marina Noskova, catree, Alexander Smorkalov, Suleyman TURKMEN, Vladislav Vinogradov, apavlenko, berak, Alexandr Kondratev, mshabunin, Dan, Pavel Vlasov, Valeriy Van, atinfinity, matze, Li Peng, abratchik, Roman Donchenko, Vadim Pisarevsky, Aleksandar Atanasov, Philipp Hasper, ArkadiuszRaj, Francisco Facioni, LaurentBerger, PkLab.net, sourin, E Sommerlade, Eric Zavesky, Ishank gulati, Matthew Self, Philip, Tetragramm, Amro, Andrey Pavlenko, Arthur Cinader, Christoph Spörk, Dikay900, Marian Zajko, alcinos, daB0bby, filipsladek, ohnozzy, Alexander Karsakov, Andreas Franek, Arek, Arkadiusz Raj, Dimitrios Katsaros, Eric Sommerlade, Gilles Rochefort, Juha Reunanen, Marek Smigielski, Mathieu Barnachon, Matthew Skolaut, Philippe FOUBERT, Sergei Nosov, Vitaliy Lyudvichenko, Your Name, a-andre, anirudt, aravind, kurenai, panxiaochun, shruthikashyap, thierry, will hunt, Прун Виктор, Addison Elliott, Alexander Shishkov, Anatoly Orlov, Asal Mirzaieva, Bleach666, Bob Paulin, Cartucho, Dan Moodie, David Wolever, Declan Moran, Dmitry Trifonov, DozyC, Elad Joseph, Elif Albuz, Eric Liao, Erich Keane, Hajo Nils Krabbenhöft, Hannes, Jan Starzynski, Joe Howse, Jose Luis Guardiola, Josh Lubawy, Lucas Solomon, Naba Kumar, Patrick Snape, Patrik Huber, Peter Rekdal Sunde, Piotr Semenov, Quentin, Randy J. Ray, Robbert Klarenbeek, Rok Mandeljc, Sean McBride, Sergiu Deitsch, Steven Puttemans, Susmit, Teng Cao, emiswelt, jiakai, lewgate, mschoeneck, shengyu, takacsd, Aaron Simmons, Adam Rankin, Alexander Fedorov, AlexeyAB, Ankit Yadav, Anton V. Shokurov, Anush Elangovan, Artyom Lebedev, Balint Cristian, Bernd Kuhls, BinMatrix, Bleach, Bram Ton, CSBVision, Christian Kapeller, Colin Finck, Dmitry Mozgin, Dmitry-Me, Dustin Spicuzza, Eduardo Arnold, Elena Gvozdeva, Elena Shipunova, Emanuel Jöbstl, Eugene Khvedchenya, Evan Heidtmann, Feng Zhoutian, Finfa811, Fraser Harris, Graham Fyffe, Gregory Kramida, Gregory Morse, Guillaume Jacob, Guy Sheffer, HMM@T430s-x64, Han Hu, Ian MacLeod, Ivar Clemens, JR Heard, Jake Kesinger, Jason von Nieda, Jcrist99, Jeff McBride, Jeroen Kromwijk, Jiri Horner, Josep Bosch, Juan Pablo Aveggio, Julien Dehos, Julien Dubiel, Julien Nabet, Kai Hugo Hustoft Endresen, Kerry Billingham, Kevin Hughes, Kevin, Hu, KeySecure, Kotrix, Krishnaraj Bhat, Leonardo BrÃ¡s, Leonid Volnitsky, Louis Letourneau, Luis Roberto Morales Iglesias, LukeZhu, Matt Leotta, Matthew Cook, Matthieu FT, Matěj Šmíd, Michael Shtutman, Morrison, Nikolay Polyarniy, Noel Eck, Oded Green, Oliver Schreer, Oskari Vinko, Patrick Spettel, Peter Entwistle, Philipp Nordhus, Philippe Renon, Pierre Dulac, Pranav Ganorkar, Prayag Verma, Péter Trombitás, Rahul Chhabra, S. Garrido, Sean Li, Sergey Alexandrov, Simmo Saan, Simon Hänisch, Sovrasov, Stephane Thiell, Steven E Wright, Tauranis, Thierry Fauck, Thomas Schenker, Tomi, Tsukasa Sugiura, Vadzim Piatrou, Vincent Rabaud, WANG Guoqin, Xiaolei Yu, Zhenqing, Hu, Zhigang Gong, ahb, arybnikov, bedbad, chacha21, danil-tolkachev, debjan, dharezlak, fegorsch, ggargov, guoxuedong, jacobdang, joao.faro, logic1988, look4pritam, monoid911, mpkh, mrquorr, mvukad, parismita, qiao, renu285, rishirajsurti, robertxwu, sarthak, solosuper, stbnps, themightyoarfish, viodetools, yigitsoy, yoffy, Özgür Can</p>
+
+<h4>opencv_contrib</h4>
+
+<p>Vitaliy Lyudvichenko, Alexander Alekhin, Anna Petrovicheva, Vladislav Samsonov, Vladislav Sovrasov, Gary Bradski, Pavel Rojtberg, berak, Balint Cristian, Maksim Shabunin, Suleyman TURKMEN, apetrovichev, lluisgomez, Alexander Bokov, Amro, StevenPuttemans, mshabunin, Jinhan Lee, Patrick Snape, Rok Mandeljc, Steve Nicholson, folz, vbystricky, LaurentBerger, Maximilien Cuony, Prof. Dr. Rudolf Haussmann, Vadim Pisarevsky, Vitaly Tuzov, Yuki Furuta, catree, sbokov, Aleksandr Rybnikov, Alexey Spizhevoy, AmbroiseMoreau, Amy Winston, Andrea Merello, Bartek Pawlik, Bleach, Bleach666, Christian Richardt, Daniel Ching, Dikay900, Eric Zavesky, Eugene Mamin, Geoff, Gregor Kovalcik, Gregory Kramida, Gunshi Gupta, Han Hu, Konstantin Volokh, Kotrix, Kumataro, Lorena García, MambaWong, Marek Smigielski, Martin Nowak, Minh Ngo, Nicu Stiurca, Pavel Vlasanek, Rostislav Vasilikhin, Sarthak Ahuja, Sunglok Choi, Thomas Schulz, VBystricky, Vasilikhin, Vladimir, Wu Jiang, Zhou Chao, abratchik, alessiodore, andrewk-mccann, aravind, baisheng lai, comdiv, damir, edgarriba, jasjuang, jhlee525, lukaszi89, lych77, samontab, sht3ch, tharunkalwa.</p>
+
+
+<p>Special thanks goes to:</p>
+
+<ul>
+    <li>Intel corp, our alma mater and our new home. Now we’ve got more resources to work on the project and it shows!</li>
+
+    <li>Alexander Bokov, Pavel Rojtberg, K-Shinotsuka and Tomoaki Teshima for excellent new functionality and optimizations they brought to the library!</li>
+
+</ul>
+
+<h3>Download</h3>
+
+<p>The latest version can be downloaded from <a href="{{ site.link_sf }}/">SourceForge</a> and <a href="{{ site.link_gh }}/opencv/releases/tag/3.2.0">GitHub</a>:</p>
+
+<p>Windows self-extracting archive: <a href="{{ site.link_sf }}/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download">sourceforge</a></p>
+
+<p>iOS framework: <a href="{{ site.link_sf }}/files/opencv-ios/3.2.0/opencv-3.2.0-ios-framework.zip/download">sourceforge</a></p>
+
+<p>Android SDK: <a href="{{ site.link_sf }}/files/opencv-android/3.2.0/opencv-3.2.0-android-sdk.zip/download">sourceforge</a></p>
+
+<p>The source code for all platforms can be downloaded from GitHub: <a href="{{ site.link_gh }}/opencv/archive/3.2.0.zip">zip</a> and <a href="{{ site.link_gh }}/opencv/archive/3.2.0.tar.gz">tar.gz</a></p>

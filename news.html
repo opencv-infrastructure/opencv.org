@@ -1,0 +1,19 @@
+---
+layout: page
+title: News
+type: page
+---
+<p class="rss-subscribe">subscribe <a href="{{ site.baseurl }}/feed.xml">via RSS <i class="fa fa-feed"></i></a></p>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+      <li>
+        <a class="post-link" href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+        <br/>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div>
+          {{ post.short }}
+        </div>
+      </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,22 @@
+---
+-
+    title: Online documentation
+    link: http://docs.opencv.org/
+-
+    title: Tutorials
+    link: http://docs.opencv.org/master/d9/df8/tutorial_root.html
+-
+    title: User Q&A forum
+    link: http://answers.opencv.org/
+-
+    title: Report a bug
+    link: https://github.com/opencv/opencv/wiki#reporting-bugs
+-
+    title: Build farm
+    link: http://pullrequest.opencv.org/
+-
+    title: Developer site
+    link: https://github.com/opencv/opencv
+-
+    title: Wiki
+    link: https://github.com/opencv/opencv/wiki

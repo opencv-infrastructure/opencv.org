@@ -1,0 +1,28 @@
+---
+date: 2012-11-03 13:16:48
+layout: post
+permalink: opencv-2-4-3-released.html
+published: true
+short: "OpenCV 2.4.3 is finally out. It should be the most mature OpenCV to the moment.
+    Big thanks to everybody who sent us the bug reports, contributed new functionality
+    and patches and helped us in any other way! You are welcome to try out the
+    latest and greatest OpenCV!"
+title: OpenCV 2.4.3 released
+---
+<p>OpenCV 2.4.3 is finally out. It should be the most mature OpenCV to the moment.</p>
+<p>Big thanks to everybody who sent us the bug reports, contributed new functionality and patches and helped us in any other way!</p>
+<p>As usual, the packages are available at <a href="{{ site.link_sf }}/">SourceForge</a>, or alternatively you can download the source code from <a href="{{ site.link_gh }}/opencv/tree/2.4">here</a>.</p>
+<p>The nicely formatted changelog can be seen here: <a href="http://code.opencv.org/projects/opencv/wiki/ChangeLog">Changelog</a>; here are the highlights:</p>
+<ul>
+<li>A lot of good stuff from the Google Summer of Code 2012 has been integrated; this was a very productive summer!</li>
+<li>Significantly improved and optimized Android and iOS ports.</li>
+<li>Greatly extended GPU (i.e. CUDA-based) module.</li>
+<li>The brand new ocl (OpenCL-based) module that unleashes GPU power also for AMD and Intel GPU users. It's not included into the binary package, since there are different SDKs, and it's not turned on by default. You need to run CMake and turn on "WITH_OPENCL". Also, please note that this is very first version of the module, so it may be not very stable and not very functional.</li>
+<li>Much better performance on many-core systems out of the box. You do not need TBB anymore on MacOSX, iOS and Windows. BTW, the binary package for Windows is now built without TBB support. Libraries and DLLs for Visual Studio 2010 use the Concurrency framework.</li>
+<li>About 130 bugs have been fixed since 2.4.2.</li>
+<li>Since 2.4.3rc we fixed several more problems, in particular some compile problems with iOS 6 SDK.</li>
+</ul>
+<p>SPECIAL NOTE for Ubuntu x86 12.04 users: By default OpenCV is now built with "-O2" optimization flag instead of "-O3" on 32-bit Linux. The compiler in the 32-bit version of Ubuntu 12.04 produces incorrect code with "-O3", so it's strongly recommended not to use this flag.</p>
+<p>You are welcome to try out the latest and greatest OpenCV!</p>
+<p>Best regards,<br />
+OpenCV development team.</p>

@@ -1,0 +1,329 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 0px;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+    padding: $spacing-unit / 4;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.logo {
+    float: left;
+}
+
+
+/**
+ * Home
+ **/
+.home {
+    @extend %clearfix;
+    p {
+        text-align: justify;
+    }
+}
+
+.home-quick {
+    float: right;
+    margin-left: $third-spacing-unit;
+    margin-bottom: $half-spacing-unit;
+    padding: $half-spacing-unit;
+    padding-top: 0;
+    @extend %themed;
+    h3 {
+        text-align: center;
+        margin-top: $half-spacing-unit;
+        margin-bottom: $half-spacing-unit;
+    }
+    p {
+        margin-top: $third-spacing-unit;
+        margin-bottom: $third-spacing-unit;
+    }
+    button {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+}
+
+.home-news {
+    @extend %clearfix;
+}
+
+.home-news-title {
+    font-size: $base-font-size * 1.5;
+    font-weight: bolder;
+}
+
+.home-news-body {
+    float: left;
+    width: $content-width / 4 - $third-spacing-unit;
+    padding-right: $third-spacing-unit;
+    padding-bottom: $third-spacing-unit;
+}
+
+.home-news-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+
+/**
+ * Navigation
+ */
+.site-nav {
+    padding: $spacing-unit 0;
+    float: right;
+}
+
+.site-nav-item {
+    float: left;
+    a {
+        display: block;
+        margin: 0px;
+        margin-right: 0.3em;
+        margin-bottom: 0.3em;
+        padding: 0.5em 0.8em;
+        color: $grey-color;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        &:hover {
+            @extend %themed;
+            background-color: $theme-color;
+            border: none;
+        }
+    }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $half-spacing-unit 0;
+}
+
+.footer-cols {
+    @extend %clearfix;
+}
+
+.footer-col {
+    color: $grey-color;
+    float: left;
+    margin-right: $spacing-unit;
+    p {
+        margin-bottom: 0.3em;
+    }
+}
+
+.footer-copyright {
+    color: $grey-color;
+    text-align: center;
+    margin-top: $half-spacing-unit;
+}
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    font-size: 24px;
+}
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+}
+
+.post-shares {
+    text-align: center;
+    background: rgba($grey-color-light, 0.7);
+    padding: $third-spacing-unit 0;
+    margin: $third-spacing-unit 0;
+    a {
+        font-weight: bolder;
+        margin-left: $half-spacing-unit;
+        margin-right: $half-spacing-unit;
+        &:hover {
+            color: $theme-color;
+        }
+    }
+}
+
+.post-nav {
+    font-size: 14px;
+    display: block;
+    width: auto;
+    overflow: hidden;
+    a {
+        display: block;
+        width: 50%;
+        float: left;
+        margin: 1em 0;
+    }
+}
+
+.post-next {
+  text-align: right;
+}
+
+
+/**
+ * Books
+ */
+.book-list {
+}
+
+.book-body {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em 0.5em;
+    @extend %themed;
+    @extend %clearfix;
+    > p {
+        margin: 1em;
+    }
+    > img {
+        display: block;
+        float: left;
+        margin: 1em;
+    }
+}
+
+/**
+ * Releases
+ */
+.release-list {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.release-body {
+    border-bottom: 2px solid $grey-color-light;
+    padding-top: $half-spacing-unit;
+    @extend %clearfix;
+}
+
+.release-col-1 {
+    float: left;
+    width: $content-width / 3;
+    text-align: right;
+    margin-right: $spacing-unit;
+    margin-bottom: $half-spacing-unit;
+}
+
+.release-col-2 {
+    float: left;
+    width: $content-width / 3;
+    p {
+        margin-bottom: $half-spacing-unit;
+    }
+}
+
+.release-icon {
+    visibility: hidden;
+}
+.release-list.latest .release-icon {
+    visibility: visible;
+}
+
+.release-name {
+    font-size: 200%;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: $half-spacing-unit;
+}
+
+.release-date {
+    font-size: $small-font-size;
+    color: $grey-color;
+    margin-bottom: $half-spacing-unit;
+}
+
+.release-tag {
+    a {
+        text-decoration: none;
+    }
+}
+
+
+/**
+ * Misc
+ */
+.big-number {
+    text-align:center;
+    color:#0071BC;
+    font-size:40px;
+    padding-top:10px;
+    padding-bootom:10px;
+}
+
+iframe.center, img.center {
+    display: block;
+    margin: $half-spacing-unit auto;
+}
+
+.fa {
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    color: darken($theme-color, 10%);
+}
+
+.donate {
+    font-size: 120%;
+    font-weight: bold;
+}

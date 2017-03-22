@@ -1,0 +1,18 @@
+---
+date: 2012-07-25 09:49:18
+layout: post
+permalink: migration-to-git.html
+published: true
+short: "Greetings! We're glad to announce that our migration to git is almost over."
+title: Migration to git, 80% completed...
+---
+<p>Greetings!</p>
+<p>We're glad to announce that our migration to git is almost over.</p>
+<p>On <a href="http://code.opencv.org/">http://code.opencv.org</a> we now use <a href="http://chiliproject.org">Chiliproject</a> instead of Redmine. You can use the same old login and password. Please, take some time to get yourself accustomed to the new look and feel of the site (it will be further improved soon).</p>
+<p><strong>Concerning repositories:</strong></p>
+<p>The main OpenCV repository was transferred to git and is available by the following link <code>git://code.opencv.org/opencv.git</code>. Repository history now begins with famous "atomic bomb" commit, that dates back to May the 11th, 2010. The rest of the history plus matches between git commits and SVN revisions are stored at a separate OpenCV Attic repository: <code>git://code.opencv.org/opencv_attic.git</code>.</p>
+<p>There is also a mirror of our repository on GitHub: <a href="{{ site.link_gh }}/opencv">{{ site.link_gh }}/opencv</a>. We are going to organize the process of adopting pull requests a bit later.</p>
+<p>Also OpenCV Extra was put to a separate repo: <code>git://code.opencv.org/opencv_extra.git</code>.</p>
+<p><strong>Short-term plans are the following:</strong></p>
+<p>Teach BuildBot to work with git.</p>
+<p>Add scripts to prevent push into the master branch in case the changeset breaks compilation or doesn't pass tests. That means that git master branch will be much more stable than the SVN trunk earlier.</p>

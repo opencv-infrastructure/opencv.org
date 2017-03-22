@@ -1,0 +1,74 @@
+---
+date: 2014-08-21 07:00:22
+layout: post
+permalink: opencv-3-0-alpha.html
+published: true
+short: OpenCV 3.0 alpha is released, with refined
+    API, greatly improved performance on CPU, transparent acceleration on GPU and
+    tons of new functionality in the new contrib repository.
+title: OpenCV 3.0 alpha
+---
+<p>It has been almost 5 years since OpenCV 2.0 has been released, which brought the completely new C++ API and started the new epoch of extensive growth of the project. During the whole 2.x lifecycle we added support of new platforms, including iOS and Android, added GPU acceleration via CUDA and OpenCL, provided complete interface to Python and Java users and built our state-of-art continuous integration system based on github and buildbot. As a result, we now have very stable OpenCV 2.4.x that's been used in many companies and universities all over the world.</p>
+<p>And now we are happy to announce the start of new season, OpenCV 3.x. In which there will be no such radical rehearsal as in 2.0, and yet it's substantial enough pile of changes and brings a lot of new opportunities for us and you, our great OpenCV community.</p>
+<p>The detailed changelog is provided, as usual, at <a href="http://code.opencv.org/projects/opencv/wiki/ChangeLog">our development site</a> and let us touch some of the highlights:<br />
+<br />
+1. Change in the project architecture. Since very beginning OpenCV was one solid project, built and shipped as a whole, and that was good strategy for many years. However, with constantly growing functionality, including bleeding-edge algorithms published a few minutes before a pull request has been submitted to our repository, and increasing number of contributors (thank you all very much, guys!) we came to the same conclusion and decision as many other big project - the solid model does not work anymore. Let's use use the core + plugins architecture then!</p>
+<p>In addition to <a href="http://github.com/itseez/opencv">our main repository</a> and the additional <a href="http://github.com/itseez/opencv_extra">"test data" repository</a>, we are now glad to introduce <a href="http://github.com/itseez/opencv_contrib">http://github.com/itseez/opencv_contrib</a>, where we put a lot of exciting functionality, including already known face recognition and text detection, but also text recognition, new-age edge detectors, state-of-art inpainting, depth maps processing, new optical flow and tracking algorithms etc. </p>
+<p>What's common and what's different between opencv and opencv_contrib?</p>
+<ul>
+<li>They are both served by <a href="{{ site.link_ci }}">our continuous integration system</a> (note the combo-box on the top of the page), although unit tests for contrib are not regularly run yet.</li>
+<li>All or some of these extra modules can be built using our build system, pass OPENCV_EXTRA_MODULES_PATH=<opencv_contrib_root>/modules to CMake.</opencv_contrib_root></li>
+<li>Documentation for contrib is automatically generated and is available at docs.opencv.org/master.  It will be made better shaped and more organized by OpenCV 3.0 beta and final release.</li>
+<li>The main opencv is Itseez-supported code, it will have very stable API and probably just a little innovation.</li>
+<li>opencv_contrib is the place where most of the experimental code is put, some parts may change API and it's where you are welcome to contribute your new exciting algorithms.</li>
+</ul>
+<p>2. Thanks to support from Intel and AMD companies, we made GPU acceleration of many vision algorithms very easily accessible to our users. The technology is nicknamed T-API ("transparent API"). A separate guide on this topic is being prepared, but you are welcome to take a look at and try out <a href="{{ site.link_gh }}/opencv/tree/master/samples/tapi">our t-api samples</a> to see how it works.</p>
+<p>3. Intel corporation gave us another exciting present. A subset of <a href="https://software.intel.com/en-us/intel-ipp">Intel Integrated Performance Primitives (IPP)</a> is linked by default into OpenCV and is available at no charge for all our users. And that includes the license to redistribute applications that use IPP-accelerated OpenCV. As you may see, for quite a few image processing functions we achieved very noticeable speedup with IPP (where IPP is compared with OpenCV built with all possible optimizations turned on):</p>
+
+<img class="center" src="{{ site.baseurl }}{% link assets/news/ocv3_ipp_speedup.jpg %}" alt="OpenCV 3.0 speedup from Intel IPPICV optimizations on Intel Haswell processor; Bar chart showing speedup for different functions: from 1.1x for cvtColor to 8.6x for MinMaxLoc"/>
+
+<p>4. Last but not least, OpenCV 3.0 brings a lot of new functionality, such as:</p>
+<ul>
+<li>Text detection and recognition by Lluis Gomez and Stefano Fabri</li>
+<li>HDR by Fedor Morozov and Alexander Shishkov</li>
+<li>KAZE/A-KAZE by Eugene Khvedchenya, the algorithm author Pablo Alcantarilla and some improvements by F. Morozov.</li>
+<li>Smart segmentation and edge-aware filters by Vitaly Lyudvichenko, Yuri Gitman, Alexander Shishkov and Alexander Mordvintsev</li>
+<li>Car detection using Waldboost, ACF by Vlad Shakhuro and Nikita Manovich</li>
+<li>TLD tracker and several common-use optimization algorithms by Alex Leontiev</li>
+<li>Matlab bindings by Hilton Bristow, with support from Mathworks.</li>
+<li>Greatly extended Python bindings, including Python 3 support, and several OpenCV+Python tutorials by Alexander Mordvintsev, Abid Rahman and others.</li>
+<li>3D Visualization using VTK by Ozan Tonkal and Anatoly Baksheev.</li>
+<li>RGBD module by Vincent Rabaud</li>
+<li>Line Segment Detector by Daniel Angelov</li>
+<li>Many useful Computational Photography algorithms by Siddharth Kherada</li>
+<li>Shape descriptors, matching and morphing shapes (shape module) by Juan Manuel Perez Rua and Ilya Lysenkov</li>
+<li>Long-term tracking + saliency-based improvements (tracking module) by Antonella Cascitelli and Francesco Puja</li>
+<li>Another good pose estimation algorithm and the tutorial on pose estimation by Edgar Riba and Alexander Shishkov</li>
+<li>Line descriptors and matchers by Biagio Montesano and Manuele Tamburanno</li>
+<li>Myriads of improvements in various parts of the library by Steven Puttemans; thank you a lot, Steven!</li>
+<li>Several NEON optimizations by Adrian Stratulat, Cody Rigney, Alexander Petrikov, Yury Gorbachev and others.</li>
+<li>Fast foreach loop over cv::Mat by Kazuki Matsuda</li>
+<li>Image alignment (ECC algorithm) by Georgios Evangelidis</li>
+<li>GDAL image support by Marvin Smith</li>
+<li>RGBD module by Vincent Rabaud</li>
+<li>Fisheye camera model by Ilya Krylov</li>
+<li>OSX framework build script by Eugene Khvedchenya</li>
+<li>Multiple FLANN improvements by Pierre-Emmanuel Viel</li>
+<li>Improved WinRT support by Gregory Morse</li>
+<li>Latent SVM Cascade by Evgeniy Kozhinov and NNSU team (awaiting integration)</li>
+<li>Logistic regression by Rahul Kavi</li>
+<li>Five-point pose estimation algorithm by Bo Li</li>
+</ul>
+<p>
+This release would not be possible without big help from many people all over the world. Thanks to all the people who contributed code, submitted bug reports, patches, reviewed patches and helped us in any other ways. In particular, we would like to thank<br />
+Alexander Shishkov (who also maintains opencv.org site), Andrey Pavlenko, Alexander Alekhin, Alexander Smorkalov, Roman Donchenko, Kirill Kornyakov, Andrey Kamaev, Sergey Sivolgin, Vladimir Bystritsky, Sergey Nosov, Nikita Manovich, Evgeniy Talanin, Elena Gvozdeva, Alexander Karsakov, Konstantin Matskevich, Ilya Lavrenov, Anna Kogan, Ivan Korolev, Dinar Ahmatnurov, Andrey Senin, Vlad Vinogradov, Alexey Spizhevoy, Anatoly Baksheev, Marina Kolpakova, Daniil Osokin, Leonid Beynenson, Dmitry Retinsky, Maria Dimashova, Ilya Lysenkov, Andrey Morozov, Victor Eruhimov, Alexander Bovyrin, Sergey Molinov, Gary Bradski, Vincent Rabaud, Harris Gasparakis and many other people.</p>
+<p>The 3.0-alpha package can be downloaded in source form as .zip package directly from github:<br />
+<a href="{{ site.link_gh }}/opencv/tree/3.0.0-alpha"> {{ site.link_gh }}/opencv/tree/3.0.0-alpha</a><br />
+in binary form, as self-extracting archive for Windows:<br />
+<a href="{{ site.link_sf }}/files/opencv-win/3.0.0-alpha/">{{ site.link_sf }}/files/opencv-win/3.0.0-alpha/</a><br />
+or an iOS framework:<br />
+<a href="{{ site.link_sf }}/files/opencv-ios/3.0.0-alpha/">{{ site.link_sf }}/files/opencv-ios/3.0.0-alpha/</a></p>
+<p>This is alpha, so expect some glitches, such as partially broken Python bindings, a few failing tests etc. Those items are in progress and also we appreciate your feedback very much.</p>
+<p><b>OpenCV 3.0 beta</b> is expected in middle of this fall and the <b>OpenCV 3.0 final release</b> should be ready by the Christmas/New Year holidays.</p>
+<p>Best regards,<br />
+OpenCV Development Team.</p>

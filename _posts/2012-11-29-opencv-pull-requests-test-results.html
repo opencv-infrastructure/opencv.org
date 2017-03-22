@@ -1,0 +1,14 @@
+---
+date: 2012-11-29 04:41:20
+layout: post
+permalink: opencv-pull-requests-test-results.html
+published: true
+short: "Those of you who contribute the code in the form of GitHub
+    pull requests can now see results of automatic testing!
+    There is a page showing the validation results on three
+    major operating systems, and more to come."
+title: Pull requests are now automatically tested
+---
+<p>Those of you who contribute the code in the form of GitHub <a href="{{ site.link_gh }}/opencv/pulls">pull requests</a> can now see results of automatic testing! A new <a href="{{ site.link_ci }}">{{ site.link_ci }}</a> page shows the validation results on three major operating systems, and more to come. This allows you to debug/improve proposed changes, and easily validate them even on foreign platforms. Unfortunately you can't launch the testing from your side, but the BuildBot will automatically do that for you. When your pull request is "green", somebody from the core OpenCV team will review your contribution, and possibly merge your work into the central repo!</p>
+
+<p>Please choose carefully the OpenCV branch (<em>2.4</em> or <em>master</em>) that you work with and that you make the pull request to. The simple rule of thumb is that if you're doing a fix, please prefer <em>2.4</em> branch. In this case your fix will go to the <em>2.4</em> maintenance branch and then will be automatically merged to the <em>master</em>. All such fixes will be included to the 2.4.4 release, which is going to be very conservative. All the new functionality should go to the <em>master</em>    branch, so it will be considered for the next major 2.5 release.</p>

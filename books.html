@@ -1,0 +1,16 @@
+---
+layout: page
+title: Books
+type: page
+---
+{% assign books = site.data.books | sort: "date" | reverse %}
+
+<div class="book-list">
+{% for b in books %}
+  <div class="book-body">
+    <img src="{{ site.baseurl }}/assets/books/{{ b.image }}" alt="Book cover: {{ b.title }}"/>
+    <p><a href="{{ b.link }}">{{ b.title }}</a><p>
+    <p>{{ b.description | markdownify }}</p>
+  </div>
+{% endfor %}
+</div>

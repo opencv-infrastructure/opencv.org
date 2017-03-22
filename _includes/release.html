@@ -1,0 +1,42 @@
+<div class="release-body" itemscope itemtype="http://schema.org/SoftwareApplication">
+    <div class="release-col-1">
+
+        <div class="release-name" itemprop="softwareVersion">
+            <i class="fa fa-asterisk release-icon"></i>{{ r.version }}
+        </div>
+        <div class="release-date" itemprop="datePublished">
+            {{ r.date | date: "%Y-%m-%d" }}
+        </div>
+
+        {% if r.tag %}
+        <div class="release-tag">
+            <a href="{{ site.link_gh }}/opencv/releases/tag/{{ r.tag }}"><i class="fa fa-tag"></i>{{ r.tag }}</a>
+        </div>
+        {% endif %}
+
+    </div>
+
+    <div class="release-col-2">
+
+        {% if r.doc %}
+        <p itemprop="softwareHelp"><i class="fa fa-archive"></i><a href="{{ r.doc }}">Documentation</a></p>
+        {% endif %}
+        {% if r.javadoc %}
+        <p itemprop="softwareHelp"><i class="fa fa-archive"></i><a href="{{ r.javadoc }}">Java Documentation</a></p>
+        {% endif %}
+        {% if r.src %}
+        <p itemprop="downloadUrl"><i class="fa fa-file-archive-o"></i><a href="{{ r.src }}">Sources</a> </p>
+        {% endif %}
+        {% if r.win %}
+        <p itemprop="downloadUrl"><i class="fa fa-windows"></i><a href="{{ r.win }}">Win pack</a></p>
+        {% endif %}
+        {% if r.ios %}
+        <p itemprop="downloadUrl"><i class="fa fa-apple"></i><a href="{{ r.ios }}">iOS pack</a></p>
+        {% endif %}
+        {% if r.android %}
+        <p itemprop="downloadUrl"><i class="fa fa-android"></i><a href="{{ r.android }}">Android pack</a></p>
+        {% endif %}
+
+    </div>
+
+</div>
