@@ -1,4 +1,27 @@
 ---
+-   date: '2017-02-09'
+    description: OpenCV 3 Computer Vision Application Programming Cookbook Third Edition 
+	    provides a complete introduction to the OpenCV library and explains how to build your 
+	    first computer vision program.
+    image: OpenCV 3 Computer Vision Application Programming Cookbook - Third Edition.jpg
+    link: https://www.packtpub.com/application-development/opencv-3-computer-vision-application-programming-cookbook-third-edition
+    title: OpenCV 3 Computer Vision Application Programming Cookbook - Third Edition
+    type: english
+-   date: '2016-12-19'
+    description: This book provides the steps to build and deploy an end-to-end application
+	    in the domain of computer vision using OpenCV/C++.
+    image: Learning OpenCV 3 Application Development.jpg
+    link: https://www.packtpub.com/application-development/learning-opencv-3-application-development
+    title: Learning OpenCV 3 Application Development
+    type: english
+-   date: '2016-10-24'
+    description: This book aims to create a smooth learning path that will teach you 
+	    to get started with OpenCV and OpenCV 3's Python API, and develop computer vision 
+	    applications from scratch to finish and more.
+    image: OpenCV- Computer Vision Projects with Python.jpg
+    link: https://www.packtpub.com/application-development/opencv-computer-vision-projects-python
+    title: OpenCV: Computer Vision Projects with Python
+    type: english
 -   date: '2011-05-01'
     description: Cookbook application examples, C++ version of OpenCV 2.0.
     image: 1407134383OpenCV2.0Cookbook.jpg
