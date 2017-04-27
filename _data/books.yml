@@ -318,6 +318,13 @@
     link: http://www.packtpub.com/content/opencv-computer-vision-application-programming/video
     title: OpenCV Computer Vision Application Programming
     type: video
+-   date: 2017-01-31
+    description: "This course will help you enhance your understanding of Computer Vision 
+        and image processing by developing real-world projects in OpenCV 3"
+    image: OpenCV3byExampleVideo.jpg
+    link: https://www.packtpub.com/application-development/opencv-3-example-video
+    title: OpenCV 3 by Example [Video]
+    type: video    
 -   date: '2015-03-20'
     description: The book will explain how to use the relevant OpenCV library routines
         and will be accompanied by a full working program including the code snippets
