@@ -1,4 +1,11 @@
 ---
+-   date: '2017-01-31'
+    description: "This course will help you enhance your understanding of Computer Vision
+        and image processing by developing real-world projects in OpenCV 3"
+    image: OpenCV3byExampleVideo.jpg
+    link: https://www.packtpub.com/application-development/opencv-3-example-video
+    title: OpenCV 3 by Example
+    type: video
 -   date: '2017-02-09'
     description: OpenCV 3 Computer Vision Application Programming Cookbook Third Edition
         provides a complete introduction to the OpenCV library and explains how to build your
@@ -124,13 +131,13 @@
     image: 140740248851xj9nCFDLL.jpg
     link: http://www.amazon.com/gp/product/8980782403/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=8980782403&linkCode=as2&tag=opencv00-20&linkId=EHDCOWMLWC3UVQT7
     title: OpenCV Programming [Korean]
-    type: other
+    type: foreign
 -   date: '2013-05-17'
     description: null
     image: 1407136355opencv_german.jpg
     link: http://www.opensourcepress.de/de/produkte/OpenCV-Basiswissen/458/978-3-95539-028-0
     title: 'OpenCV Basiswissen: Installation und Grundfunktionen der C++ API [Deutsch]'
-    type: other
+    type: foreign
 -   date: '2014-08-01'
     description: The book provides an example-based tour of OpenCV's main modules
         and algorithms, including the latest available in version 3.0. Starting with
@@ -241,7 +248,7 @@
     image: 140740255251JULyZ6olL.jpg
     link: http://www.amazon.com/gp/product/4877833099/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=4877833099&linkCode=as2&tag=opencv00-20&linkId=EENNQ5NFQME2RYSA
     title: OpenCV environment construction guide for iOS and OS X [Japanese]
-    type: other
+    type: foreign
 -   date: '2010-12-21'
     description: This bestselling book has been fully updated with the newest of
         these, including 2D vision methods in content-based searches and the use of
@@ -307,7 +314,7 @@
     image: 140740220981zHR1Cw8nL.jpg
     link: http://www.amazon.com/gp/product/4877831843/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=4877831843&linkCode=as2&tag=opencv00-20&linkId=2XDCYEI6B34OOO2W
     title: Practice OpenCV 2.4-image processing and analysis [Japanese]
-    type: other
+    type: foreign
 -   date: null
     description: "This course will expose you to the key concepts of OpenCV and\
         \ enable you to build your own computer vision applications. 'OpenCV\
@@ -318,13 +325,6 @@
     link: http://www.packtpub.com/content/opencv-computer-vision-application-programming/video
     title: OpenCV Computer Vision Application Programming
     type: video
--   date: 2017-01-31
-    description: "This course will help you enhance your understanding of Computer Vision 
-        and image processing by developing real-world projects in OpenCV 3"
-    image: OpenCV3byExampleVideo.jpg
-    link: https://www.packtpub.com/application-development/opencv-3-example-video
-    title: OpenCV 3 by Example [Video]
-    type: video    
 -   date: '2015-03-20'
     description: The book will explain how to use the relevant OpenCV library routines
         and will be accompanied by a full working program including the code snippets
