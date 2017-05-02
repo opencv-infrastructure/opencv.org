@@ -9,7 +9,19 @@ type: page
 {% for b in books %}
   <div class="book-body">
     <img src="{{ site.baseurl }}/assets/books/{{ b.image }}" alt="Book cover: {{ b.title }}"/>
-    <p><a href="{{ b.link }}">{{ b.title }}</a><p>
+    <p>
+      {% case b.type %}
+        {% when 'english' %}
+        <i class="fa fa-book"></i>
+        {% when 'video' %}
+        <i class="fa fa-video-camera"></i>
+        {% when 'mention' %}
+        <i class="fa fa-commenting-o"></i>
+        {% when 'foreign' %}
+        <i class="fa fa-globe"></i>
+      {% endcase %}
+      <a href="{{ b.link }}">{{ b.title }}</a>
+    <p>
     <p>{{ b.description | markdownify }}</p>
   </div>
 {% endfor %}
