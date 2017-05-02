@@ -38,7 +38,6 @@ type: page
 ### Blogs
 
 *   [bytefish.de](http://bytefish.de/tag/opencv/)
-*   [Computer Vision Talks](http://computer-vision-talks.com/tag/opencv/)
 *   [Eric Yuan's Blog](http://eric-yuan.me/category/opencv/)
 *   [Hanzra Tech](http://hanzratech.in/categories/opencv/)
 *   [MARE's Computer Vision Study](http://study.marearts.com/search/label/OpenCV)
@@ -50,4 +49,3 @@ type: page
 *   [Japanese](http://opencv.jp/)
 *   [Tutorials (C++, Spanish)](http://acodigo.blogspot.com.es/p/tutorial-opencv.html)
 *   [Tutorials (Python, Spanish)](http://www.aprendiendoando.com/opencv)
-*   [VisionLabs (Spanish)](http://visionlabs.cl/blog/?cat=5)
