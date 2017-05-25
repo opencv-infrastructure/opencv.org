@@ -1,18 +1,18 @@
 ---
 -   date: '2017-04-28'
-    description: "This book will put you straight to work in creating powerful and unique 
-    computer vision applications by diving into important aspects of OpenCV such as facial 
-    recognition, image target tracking, making augmented reality applications, the 3D 
-    visualization framework, and machine learning."
-    image: MasteringOpenCV3-Second Edition.jpg
+    description: "This book will put you straight to work in creating powerful and unique
+        computer vision applications by diving into important aspects of OpenCV such as facial
+        recognition, image target tracking, making augmented reality applications, the 3D
+        visualization framework, and machine learning."
+    image: Mastering_OpenCV3_Second_Edition.jpg
     link: https://www.packtpub.com/application-development/mastering-opencv-3-second-edition
     title: Mastering OpenCV 3 - Second Edition
     type: book
 -   date: '2017-04-26'
-    description: "This course is for developers who are new to OpenCV and want to develop 
-    computer vision applications with OpenCV in C++. A basic knowledge of C++ would be 
-    helpful."
-    image: BuildWithOpenCV.png
+    description: "This course is for developers who are new to OpenCV and want to develop
+        computer vision applications with OpenCV in C++. A basic knowledge of C++ would be
+        helpful."
+    image: BuildWithOpenCV.jpg
     link: https://www.packtpub.com/application-development/build-opencv
     title: Build with OpenCV
     type: video
