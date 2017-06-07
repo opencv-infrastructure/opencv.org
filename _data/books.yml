@@ -1,4 +1,30 @@
 ---
+-   date: '2017-05-30'
+    description: "This course provides a complete introduction to the OpenCV library and explains 
+    how to build your first computer vision program. You will be presented with a variety of 
+    computer vision algorithms and exposed to important concepts in image analysis that will 
+    enable you to build your own computer vision applications."
+    image: OpenCV 3 – Transforming and Filtering Images [Video].png
+    link: https://www.packtpub.com/application-development/opencv-3-%E2%80%93-transforming-and-filtering-images-video
+    title: OpenCV 3 – Transforming and Filtering Images [Video]
+    type: video
+-   date: '2017-05-30'
+    description: "This video helps you to get started with the library, and shows you how to 
+    install and deploy the OpenCV library to write effective computer vision applications 
+    following good programming practices. You will learn how to read and display images. 
+    It also introduces the basic OpenCV data structures."
+    image: OpenCV 3 – Getting started with Image processing [Video].png
+    link: https://www.packtpub.com/application-development/opencv-3-%E2%80%93-getting-started-image-processing-video
+    title: OpenCV 3 – Getting started with Image processing [Video]
+    type: video
+-   date: '2017-05-31'
+    description: "This video will help you tackle increasingly challenging computer vision 
+    problems that you may face in your job. We make use of OpenCV 3 to work around some 
+    interesting projects."
+    image: OpenCV 3 Projects for Photo Filtering [Video].png
+    link: https://www.packtpub.com/application-development/opencv-3-projects-photo-filtering-video
+    title: OpenCV 3 Projects for Photo Filtering [Video]
+    type: video
 -   date: '2017-04-28'
     description: "This book will put you straight to work in creating powerful and unique
         computer vision applications by diving into important aspects of OpenCV such as facial
