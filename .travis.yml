@@ -5,7 +5,7 @@ rvm:
 - 2.3.3
 
 install: gem install jekyll html-proofer jekyll-sitemap
-script: jekyll build && htmlproofer ./_site
+script: jekyll build && htmlproofer --disable-external ./_site
 
 branches:
   only:
