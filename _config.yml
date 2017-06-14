@@ -9,7 +9,7 @@ github_username:  opencv
 
 # Build settings
 markdown: kramdown
-exclude: ["_scripts", "docker-compose.yml", "README.md"]
+exclude: ["_scripts", "docker-compose.yml", "README.md", "vendor"]
 gems:
     - jekyll-sitemap
 sass:
