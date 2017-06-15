@@ -29,7 +29,7 @@ OpenCV includes GPU module that contains all GPU accelerated stuff. Supported by
 
 Tesla C2050 versus Core i5-760 2.8Ghz, SSE, TBB
 
-![]({{ site.baseurl }}{% link assets/pages/perf.png %}){:class="center"}
+![]({{ site.baseurl }}{% link assets/pages/perf.png %}){: class="center" alt="Bar chart: speedup for different algorithms: primitive image processing - 30x, stereo vision - 7x, pedestrian detection - 8x, face detector - 6x, SURF keypoints - 12x"}
 
 
 ### Design considerations

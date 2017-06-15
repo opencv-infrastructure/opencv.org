@@ -18,7 +18,7 @@ In OpenCV-3.x the architecture concept has been changed to the so-called Transpa
 
 Some performance numbers are shown on the picture below:
 
-![]({{ site.baseurl }}{% link assets/pages/OpenCV_OpenCL_perf-e1421322901763.jpg %}){:class="center"}
+![]({{ site.baseurl }}{% link assets/pages/OpenCV_OpenCL_perf-e1421322901763.jpg %}){: class="center" alt="Bar chart: OpenCL performance in OpenCV 3.0 (iGPU and dGPU vs CPU): MOG - 2x - 6x, warpPerspective - 2x - 7x, ..., matchTemplate - 5x - 30x, Sobel - 10x - 32x"}
 
 ### Code sample
 
