@@ -445,10 +445,10 @@
     date: 2016-12-16 16:11:58 +0300
     doc: http://docs.opencv.org/2.4.13.2
     javadoc:
-    src:
-    win:
-    ios:
-    android:
+    src: https://github.com/opencv/opencv/archive/2.4.13.2.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.2-vc14.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/2.4.13/opencv-2.4.13.2-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/2.4.13/opencv-2.4.13.2-android-sdk.zip/download
     latest: true
 -   version: 3.2.0 RC
     tag: 3.2.0-rc
