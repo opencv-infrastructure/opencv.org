@@ -1,4 +1,13 @@
 ---
+-   date: '2017-08-26'
+    description: "An application focused book to learn OpenCV using C++ and Visual Studio. Instead
+        of theoretical aspects, the book emphasized on example and explanation of example. For
+        beginners it is very good approach to learn by practicing the applications. This is where
+        the book actually leads to."
+    image: OpenSourceComputerVisionForBeginners.jpg
+    link: https://www.amazon.com/dp/B075623WYH
+    title: "Open Source Computer Vision for Beginners: Learn OpenCV using C++ in fastest possible way"
+    type: english
 -   date: '2017-05-30'
     description: "This course provides a complete introduction to the OpenCV library and explains
         how to build your first computer vision program. You will be presented with a variety of
