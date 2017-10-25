@@ -491,6 +491,9 @@
     doc: http://docs.opencv.org/2.4.13.4
     javadoc:
     src: https://github.com/opencv/opencv/archive/2.4.13.4.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.4-vc14.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/2.4.13/opencv-2.4.13.4-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/2.4.13/opencv-2.4.13.4-android-sdk.zip/download
     latest: true
 -   version: 3.3.1
     tag: 3.3.1
