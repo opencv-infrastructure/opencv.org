@@ -1,4 +1,34 @@
 ---
+-   date: '2017-07-31'
+    description: "Boost your knowledge of Computer Vision and image processing by developing real-world projects in OpenCV 3."
+    image: Practical-OpenCV-3-Image-Processing-with-Python.jpg
+    link: https://www.packtpub.com/application-development/practical-opencv-3-image-processing-python-video
+    title: Practical OpenCV 3 Image Processing with Python
+    type: video
+-   date: '2017-07-20'
+    description: "This video helps you to get started with the OpenCV library, and shows you how to install and deploy it to write effective computer vision applications following good programming practices. You will learn how to read and write images and manipulate their pixels. Different techniques for image enhancement and shape analysis will be presented."
+    image: OpenCV-3-Advanced-Topics-in-CVAP.jpg
+    link: https://www.packtpub.com/application-development/opencv-3-%E2%80%93-advanced-topics-cvap-video
+    title: OpenCV 3 – Advanced Topics in CVAP
+    type: video
+-   date: '2017-07-20'
+    description: "These videos explain computer vision applications in a step-by-step manner. You’ll get a walkthrough of several projects from the concept and approach through to an efficient implementation with OpenCV3. Each project will show OpenCV3 used within a specific goal-oriented context."
+    image: OpenCV-3-Advanced-Photo-Manipulation.jpg
+    link: https://www.packtpub.com/application-development/opencv-3-advanced-photo-manipulation-video
+    title: OpenCV 3 Advanced Photo Manipulation
+    type: video
+-   date: '2017-07-14'
+    description: "Machine Learning for OpenCV begins by introducing you to the essential concepts of statistical learning, such as classification and regression. Once all the basics are covered, you will start exploring various algorithms such as decision trees, support vector machines, and Bayesian networks, and learn how to combine them with other OpenCV functionality. As the book progresses, so will your Machine Learning skills, until you are ready to take on today's hottest topic in the field: Deep Learning."
+    image: Machine-Learning-for-OpenCV.jpg
+    link: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv
+    title: Machine Learning for OpenCV
+    type: english
+-   date: '2017-06-28'
+    description: "This video will arm you with the basics you need to start writing world-aware applications right from the pixel level all the way through to processing video sequences."
+    image: OpenCV-3-Advanced-Image-Detection-and-Reconstruction.jpg
+    link: https://www.packtpub.com/application-development/opencv-3-%E2%80%93-advanced-image-detection-and-reconstruction-video
+    title: OpenCV 3 - Advanced Image Detection and Reconstruction
+    type: video
 -   date: '2017-08-26'
     description: "An application focused book to learn OpenCV using C++ and Visual Studio. Instead
         of theoretical aspects, the book emphasized on example and explanation of example. For
