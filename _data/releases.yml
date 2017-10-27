@@ -497,7 +497,7 @@
     latest: true
 -   version: 3.3.1
     tag: 3.3.1
-    date: 2017-08-03 09:00:00 +0300
+    date: 2017-10-23 18:41:00 +0300
     doc: http://docs.opencv.org/3.3.1
     javadoc:
     src: https://github.com/opencv/opencv/archive/3.3.1.zip
