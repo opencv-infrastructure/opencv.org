@@ -25,6 +25,7 @@ type: page
 *   [PyImageSearch (Python)](http://www.pyimagesearch.com/)
 *   [Tutorials AI Shack (C++)](http://aishack.in/tutorials/)
 *   [Tutorials (C++, Qt, Android)](http://amin-ahmadi.com/category/tutorials/opencv-tutorials/)
+*   [Learn OpenCV with Mapt](https://www.packtpub.com/mapt/search_results?query=OpenCV&ss_cck_field_available=Available,Early%20Access)
 
 ### Articles/Pages
 
