@@ -1,4 +1,10 @@
 ---
+-   date: '2017-12-08'
+    description: Apprenez  par l'exemple à utiliser OpenCV pour traiter des images et des flux vidéo.
+    image: traitement-d-images-et-de-videos-avec-opencv-3.jpg
+    link: https://www.d-booker.fr/opencv/510-traitement-d-images-et-de-videos-avec-opencv-3.html
+    title: Traitement d'images et de vidéos avec OpenCV 3 en C++ (Windows, Linux, Raspberry) [French]
+    type: foreign
 -   date: '2017-07-31'
     description: "Boost your knowledge of Computer Vision and image processing by developing real-world projects in OpenCV 3."
     image: Practical-OpenCV-3-Image-Processing-with-Python.jpg
