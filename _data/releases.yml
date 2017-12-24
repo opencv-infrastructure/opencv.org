@@ -519,7 +519,7 @@
     doc: http://docs.opencv.org/3.4.0
     javadoc:
     src: https://github.com/opencv/opencv/archive/3.4.0.zip
-    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.0/opencv-3.4.0-vc14.exe/download
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.0/opencv-3.4.0-vc14_vc15.exe/download
     ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/3.4.0/opencv-3.4.0-ios-framework.zip/download
     android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/3.4.0/opencv-3.4.0-android-sdk.zip/download
     latest: true
