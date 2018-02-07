@@ -1,4 +1,14 @@
 ---
+-   date: '2018-01-01'
+    description: "This book will teach you to develop applications with the combination of OpenCV 3 and Qt5. 
+        This book will teach you to create cross-platform computer vision applications. 
+        We’ll begin by introducing Qt, its IDE, and its SDK. 
+        Next you’ll learn how to use the OpenCV API to integrate both tools, and see how to configure Qt to use OpenCV. 
+        You’ll go on to build a full-fledged computer vision application throughout the book."
+    image: Computer_Vision_with_OpenCV_3 and_Qt5.jpg 
+    link: https://www.packtpub.com/application-development/computer-vision-opencv-3-and-qt5
+    title: Computer Vision with OpenCV 3 and Qt5
+    type: book
 -   date: '2017-05-31'
     description: "This course provides a complete introduction to the OpenCV library and explains
         how to build your first computer vision program. You will be presented with a variety of
