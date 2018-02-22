@@ -25,6 +25,8 @@ type: page
 *   [PyImageSearch (Python)](http://www.pyimagesearch.com/)
 *   [Tutorials AI Shack (C++)](http://aishack.in/tutorials/)
 *   [Tutorials (C++, Qt, Android)](http://amin-ahmadi.com/category/tutorials/opencv-tutorials/)
+*   [Advanced OpenCV 3 (Video)](https://www.packtpub.com/application-development/advanced-opencv-3-video)
+*   [Building Advanced OpenCV3 Projects with Python (Video)](https://www.packtpub.com/application-development/building-advanced-opencv3-  projects-python-video)
 
 ### Articles/Pages
 
