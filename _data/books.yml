@@ -10,7 +10,7 @@
     image: Practical-OpenCV-3-Image-Processing-with-Python.jpg
     link: https://www.packtpub.com/application-development/practical-opencv-3-image-processing-python-video
     title: Practical OpenCV 3 Image Processing with Python
-    type: video
+    type: book
 -   date: '2017-07-20'
     description: "This video helps you to get started with the OpenCV library, and shows you how to install and deploy it to write effective computer vision applications following good programming practices. You will learn how to read and write images and manipulate their pixels. Different techniques for image enhancement and shape analysis will be presented."
     image: OpenCV-3-Advanced-Topics-in-CVAP.jpg
