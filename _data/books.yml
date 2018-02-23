@@ -1,11 +1,4 @@
 ---
--   date: '2018-01-17'
-    description: "Learn the techniques for object recognition, 3D reconstruction, stereo imaging, and other computer vision applications using examples on different functions of OpenCV."
-    image: OpenCV 3.x with Python By Example - Second Edition.jpg
-    link: https://www.amazon.com/dp/1788396901
-    title: OpenCV 3.x with Python By Example - Second Edition
-    type: book
--   date: '2018-01-01'
     description: "This book will teach you to develop applications with the combination of 
         OpenCV 3 and Qt5. 
         This book will teach you to create cross-platform computer vision applications. 
