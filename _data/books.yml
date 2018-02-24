@@ -6,7 +6,7 @@
         Next you’ll learn how to use the OpenCV API to integrate both tools, and see how to configure 
         Qt to use OpenCV. 
         You’ll go on to build a full-fledged computer vision application throughout the book."
-    image: Computer_Vision_With_OpenCV_3and_QT5.jpg
+    image: Computer_Vision_with_OpenCV_3 and_Qt5.jpg
     link: https://www.packtpub.com/application-development/computer-vision-opencv-3-and-qt5
     title: Computer Vision with OpenCV 3 and Qt5
     type: book
