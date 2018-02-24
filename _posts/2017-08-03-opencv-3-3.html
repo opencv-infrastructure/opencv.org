@@ -1,0 +1,63 @@
+---
+date: 2017-08-03 19:00:00 +0300
+layout: post
+permalink: opencv-3-3.html
+published: true
+short: "OpenCV 3.3 has been released with greatly improved Deep Learning module and lots of optimizations."
+title: OpenCV 3.3
+---
+<p>Hello everybody,</p>
+
+<p>We are proud to present you the latest and greatest OpenCV 3.3 release.</p>
+
+
+<h3>Changes</h3>
+
+
+<ul>
+    <li>The main news is that we promoted DNN module from opencv_contrib to the main repository, improved and accelerated it a lot. An external BLAS implementation is not needed anymore. For GPU there is experimental DNN acceleration using Halide (<a href="http://halide-lang.org">http://halide-lang.org</a>). The detailed information about the module can be found in our wiki: <a href="{{ site.link_wiki }}/Deep-Learning-in-OpenCV">Deep Learning in OpenCV</a>.</li>
+
+    <li>OpenCV can now be built as C++ 11 library using the flag ENABLE_CXX11. Some cool features for C++ 11 programmers have been added.</li>
+
+    <li>We've also enabled quite a few AVX/AVX2 and SSE4.x optimizations in the default build of OpenCV thanks to the feature called 'dynamic dispatching'. The DNN module also has some AVX/AVX2 optimizations.</li>
+
+    <li>Intel Media SDK can now be utilized by our videoio module to do hardware-accelerated video encoding/decoding. MPEG1/2, as well as H.264 are supported.</li>
+
+    <li>Embedded into OpenCV Intel IPP subset has been upgraded from 2015.12 to 2017.2 version, resulting in ~15% speed improvement in our core & imgproc perf tests.</li>
+
+    <li>716 Pull Requests have been merged and 588 Issues in our bug tracker have been closed since OpenCV 3.2. Additionally, we've run OpenCV through some strict static analyser tools and fixed the detected problems. So, OpenCV 3.3 should hopefully be very stable and dependable release.</li>
+
+</ul>
+
+<p>More details about the changes and new functionality in OpenCV 3.3 can be found at <a href="{{ site.link_wiki }}/ChangeLog">{{ site.link_wiki }}/ChangeLog</a>.</p>
+
+
+<h3>Contributors</h3>
+
+<p>As usual, we would like to thank everybody who contributed to the library in one or another way! Here is the list of contributors, based on git logs:</p>
+
+<h4>opencv</h4>
+
+<p>Alexander Alekhin, Vladislav Sovrasov, Tomoaki Teshima, Vitaly Tuzov, Maksim Shabunin, Fangjun KUANG, chacha21, LaurentBerger, berak, Rostislav Vasilikhin, catree, dkurt, Matthias Grundmann, Pavel Rojtberg, Pyotr Chekmaryov, Vadim Pisarevsky, Woody Chow, Aleksandr Rybnikov, atinfinity, Hamdi Sahloul, vskarlsruhe, Jiri Horner, KUANG, Fangjun, Michele Cancilla, StevenPuttemans, Dal Rupnik, Naba Kumar, Pavel Vlasov, chrizandr, saskatchewancatch, Claudio, Jaime O. Rios, Peter Würtz, PkLab.net, Suleyman TURKMEN, Wenju He, Yuriy Solovyov, abratchik, nnorwitz, oulenz, Alexander Broemmer, Artem Lukoyanov, Chaoshuai Lu, Drew Hintz, Kerry Billingham, LukeZhu, Matt Bennett, Philipp Hasper, Rink Springer, Sergiu Deitsch, Tetragramm, Tong Ke, Utkarsh Sinha, jveitchmichaelis, lewisjb, mshabunin, tribta, utibenkei, ville-v, ziggy90127, Adeel, Adeel Ahmad, Alessandro Gentilini, Alexander Duda, Amro, André Mewes, Anupam Sobti, Arek, Arkadiusz Raj, Arnaud Brejeon, BadrinathS, Bragadeesh, Brian Armstrong, Bryce Evans, Cartucho, Christof Kaufmann, David Carlier, Dinar, Dinar Ahmatnurov, Dmitry Kurtaev, Duncan Barber, Egor Pugin, Fernando Iglesias Garcia, Frank de Brabander, Gabriel B. Nunes, Guilherme William Guedes, Hans Gaiser, Ilija Puaca, Ismo Puustinen, James Clarke, Jejos, Jeremy Maitin-Shepard, Jinay Patel, Jiří Sejkora, Jon Eyolfson, Jose Gómez, Juha Reunanen, Julian Exner, Julian Tanke, Kene Udeh, Kuan-Yi Li, Kyle Fleming, Lorena García, Louie Helm, Mark Szumowski, Martin Ganeff, Neil Shipp, Neio Zhou, Nicholas Nadeau, Ninad P.Chaudhari, Paolo Perkovic, Pascal Thomet, Patrik Huber, Piotr Semenov, PkLab, Raj Natarajan, Robert Bragg, Robin Chavignat, Ryan Pavlik, Ryuhei Mori, Sadika Sumanapala, Satoshi Tanaka, Sergey, Shuyu Liang, Sixela David, Steve, Steven Puttemans, Tim King, Tony Lian, Tony Theodore, Vadzim Piatrou, Werner Palfinger, Yakun Wang, Yuval Langer, Zhiwei Su, brian-armstrong-discord, cDc, cclauss, daB0bby, gylns, hailong-wang, huangqinjin, insoow, ionut, jexner, jqly, krishraghuram, kvaghel1, likan999, logic1988, mrquorr, mschoeneck, msk-repo01, n001519, neok-m4700, orisano, puqeko, q, remi, rmensing, sovrasov, umbraclet16, vartenkov, wykvictor, wzw, xuning0, ylemkimon, zongwave</p>
+
+<h4>opencv_contrib</h4>
+
+<p>Vladislav Sovrasov, Alexander Alekhin, Aleksandr Rybnikov, Hamdi Sahloul, dkurt, Vadim Pisarevsky, berak, LaurentBerger, Maksim Shabunin, Balint Cristian, arrybn, Dmitry Kurtaev, Li Peng, Pavel Rojtberg, Pavel Vlasanek, Philipp Hasper, Suleyman TURKMEN, jexner, Kumataro, Steven Puttemans, Vladislav Samsonov, Woody Chow, atinfinity, lhelontra, mshabunin, np-csu, olivierpascal, Diego, Edgar Riba, Erik Sandrén, Erwan Normand, Haaris, Jcrist99, Jeremy Nicola, Julian Exner, Justin Hotchkiss Palermo, Kiran Pradeep, Leonardo lontra, Lorena García, Max-Wang, Natsuki Kawai, Rostislav Vasilikhin, Sergey, StevenPuttemans, Tham, Yorwba, Yuriy Obukh, abratchik, catree, goldstar616, logic1988, nyanp, oqtvs, saskatchewancatch, szk1509, utibenkei</p>
+
+
+<h3>Download</h3>
+
+<p>The latest version can be downloaded from <a href="{{ site.link_sf }}/">SourceForge</a> and <a href="{{ site.link_gh }}/opencv/releases/tag/3.3.0">GitHub</a>:</p>
+
+<p>Windows self-extracting archive: <a href="{{ site.link_sf }}/files/opencv-win/3.3.0/opencv-3.3.0-vc14.exe/download">sourceforge</a></p>
+
+<p>iOS framework: <a href="{{ site.link_sf }}/files/opencv-ios/3.3.0/opencv-3.3.0-ios-framework.zip/download">sourceforge</a></p>
+
+<p>Android SDK: <a href="{{ site.link_sf }}/files/opencv-android/3.3.0/opencv-3.3.0-android-sdk.zip/download">sourceforge</a></p>
+
+<p>The source code for all platforms can be downloaded from GitHub: <a href="{{ site.link_gh }}/opencv/archive/3.3.0.zip">zip</a> and <a href="{{ site.link_gh }}/opencv/archive/3.3.0.tar.gz">tar.gz</a></p>
+
+<p>
+Sincerely yours,<br/>
+OpenCV dev team
+</p>

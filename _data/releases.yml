@@ -449,7 +449,6 @@
     win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.2-vc14.exe/download
     ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/2.4.13/opencv-2.4.13.2-ios-framework.zip/download
     android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/2.4.13/opencv-2.4.13.2-android-sdk.zip/download
-    latest: true
 -   version: 3.2.0 RC
     tag: 3.2.0-rc
     date: 2016-12-19 17:59:14 +0000
@@ -468,4 +467,59 @@
     win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download
     ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/3.2.0/opencv-3.2.0-ios-framework.zip/download
     android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/3.2.0/opencv-3.2.0-android-sdk.zip/download
+-   version: 2.4.13.3
+    tag: 2.4.13.3
+    date: 2017-08-01 20:00:00 +0300
+    doc: http://docs.opencv.org/2.4.13.3
+    javadoc:
+    src: https://github.com/opencv/opencv/archive/2.4.13.3.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.3-vc14.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/2.4.13/opencv-2.4.13.3-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/2.4.13/opencv-2.4.13.3-android-sdk.zip/download
+-   version: 3.3.0
+    tag: 3.3.0
+    date: 2017-08-03 09:00:00 +0300
+    doc: http://docs.opencv.org/3.3.0
+    javadoc:
+    src: https://github.com/opencv/opencv/archive/3.3.0.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.3.0/opencv-3.3.0-vc14.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/3.3.0/opencv-3.3.0-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/3.3.0/opencv-3.3.0-android-sdk.zip/download
+-   version: 2.4.13.4
+    tag: 2.4.13.4
+    date: 2017-10-12 14:34:00 +0300
+    doc: http://docs.opencv.org/2.4.13.4
+    javadoc:
+    src: https://github.com/opencv/opencv/archive/2.4.13.4.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.4-vc14.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/2.4.13/opencv-2.4.13.4-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/2.4.13/opencv-2.4.13.4-android-sdk.zip/download
+-   version: 3.3.1
+    tag: 3.3.1
+    date: 2017-10-23 18:41:00 +0300
+    doc: http://docs.opencv.org/3.3.1
+    javadoc:
+    src: https://github.com/opencv/opencv/archive/3.3.1.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.3.1/opencv-3.3.1-vc14.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/3.3.1/opencv-3.3.1-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/3.3.1/opencv-3.3.1-android-sdk.zip/download
+-   version: 2.4.13.5
+    tag: 2.4.13.5
+    date: 2017-12-22 17:00:00 +0300
+    doc: http://docs.opencv.org/2.4.13.5
+    javadoc:
+    src: https://github.com/opencv/opencv/archive/2.4.13.5.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.5-vc14.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/2.4.13/opencv-2.4.13.5-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/2.4.13/opencv-2.4.13.5-android-sdk.zip/download
+    latest: true
+-   version: 3.4.0
+    tag: 3.4.0
+    date: 2017-12-23 15:00:00 +0300
+    doc: http://docs.opencv.org/3.4.0
+    javadoc:
+    src: https://github.com/opencv/opencv/archive/3.4.0.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.0/opencv-3.4.0-vc14_vc15.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/3.4.0/opencv-3.4.0-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/3.4.0/opencv-3.4.0-android-sdk.zip/download
     latest: true

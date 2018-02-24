@@ -16,17 +16,17 @@ type: page
 
 ### Tutorials/Lessons
 
-*   [Code for the book "Mastering OpenCV with Practical Computer Vision Projects" (C++)](https://github.com/MasteringOpenCV/code)
 *   [Learn OpenCV (C++, Python)](http://www.learnopencv.com/)
+*   [PyImageSearch (Python)](http://www.pyimagesearch.com/)
+*   [Code for the book "Mastering OpenCV with Practical Computer Vision Projects" (C++)](https://github.com/MasteringOpenCV/code)
 *   [Learn OpenCV by Examples (C++)](http://opencvexamples.blogspot.com/p/table-of-contents.html)
-*   [OpenCV Code (C++, Python)](http://opencv-code.com/)
 *   [OpenCV Java Tutorials (Java)](http://opencv-java-tutorials.readthedocs.org/en/latest/)
 *   [OpenCV Tutorial (C++)](http://opencv-srf.blogspot.com/)
-*   [PyImageSearch (Python)](http://www.pyimagesearch.com/)
 *   [Tutorials AI Shack (C++)](http://aishack.in/tutorials/)
 *   [Tutorials (C++, Qt, Android)](http://amin-ahmadi.com/category/tutorials/opencv-tutorials/)
 *   [Advanced OpenCV 3 (Video)](https://www.packtpub.com/application-development/advanced-opencv-3-video)
 *   [Building Advanced OpenCV3 Projects with Python (Video)](https://www.packtpub.com/application-development/building-advanced-opencv3-  projects-python-video)
+*   [Learn OpenCV with Mapt](https://www.packtpub.com/mapt/search_results?query=OpenCV&ss_cck_field_available=Available,Early%20Access)
 
 ### Articles/Pages
 
@@ -39,10 +39,10 @@ type: page
 
 ### Blogs
 
+*   [MARE's Computer Vision Study](http://study.marearts.com/)
 *   [bytefish.de](http://bytefish.de/tag/opencv/)
 *   [Eric Yuan's Blog](http://eric-yuan.me/category/opencv/)
 *   [Hanzra Tech](http://hanzratech.in/categories/opencv/)
-*   [MARE's Computer Vision Study](http://study.marearts.com/search/label/OpenCV)
 *   [More Than Technical](http://www.morethantechnical.com/?s=opencv)
 *   [Philipp Hasper](http://www.hasper.info/tag/opencv/)
 
