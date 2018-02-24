@@ -413,7 +413,7 @@
     title: 'Programming Computer Vision with Python: Tools and algorithms for analyzing
         images'
     type: mention
-    ---
+   
 -   date: '2017-07-31'
     description: "Boost your knowledge of Computer Vision and image processing by developing real-world projects in OpenCV 3."
     image: Practical-OpenCV-3-Image-Processing-with-Python.png 
