@@ -7,9 +7,6 @@ type: page
 
 <ul class="post-list">
   {% for post in site.posts %}
-      {% if post.tag == "event" %}
-        {% continue %}
-      {% endif %}
       <li>
         <a class="post-link" href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
         <br/>

@@ -4,17 +4,11 @@ title: Events
 type: page
 ---
 <ul class="post-list">
-  {% for post in site.posts %}
-      {% unless post.tag == "event" %}
-        {% continue %}
-      {% endunless %}
+  {% for post in site.events %}
       <li>
         <a class="post-link" href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
         <br/>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <div>
-          {{ post.short }}
-        </div>
+        <div>{{ post.short }}</div>
       </li>
   {% endfor %}
 </ul>
