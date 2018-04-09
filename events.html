@@ -1,15 +1,13 @@
 ---
 layout: page
-title: News
+title: Events
 type: page
 ---
-<p class="rss-subscribe">subscribe <a href="{{ site.baseurl }}/feed.xml">via RSS <i class="fa fa-feed"></i></a></p>
-
 <ul class="post-list">
   {% for post in site.posts %}
-      {% if post.tag == "event" %}
+      {% unless post.tag == "event" %}
         {% continue %}
-      {% endif %}
+      {% endunless %}
       <li>
         <a class="post-link" href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
         <br/>

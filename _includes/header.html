@@ -8,7 +8,7 @@
         </div>
 
         <nav class="site-nav">
-            {% assign nav_pages = "About,News,Releases,Platforms,Books,Links,License" | split: ',' %}
+            {% assign nav_pages = "About,News,Events,Releases,Platforms,Books,Links,License" | split: ',' %}
             {% for t in nav_pages %}
             {% for p in site.pages %}
             {% if p.title == t %}
