@@ -1,10 +1,52 @@
 ---
+-   date: '2018-04-09'
+    description: "OpenCV Object Recognition: Harness Deep Learning in OpenCV"
+    image: object-detection-and-recognition-using-deep-learning-opencv-video.jpg
+    link: https://www.packtpub.com/application-development/object-detection-and-recognition-using-deep-learning-opencv-video
+    title: Object Detection and Recognition Using Deep Learning in OpenCV
+    type: video
+-   date: '2018-03-01'
+    description: "Recipe-based approach to tackle the most common problems in Computer Vision by leveraging the functionality of OpenCV using Python APIs"
+    image: opencv-3-computer-vision-python-cookbook.jpg
+    link: https://www.packtpub.com/application-development/opencv-3-computer-vision-python-cookbook
+    title: OpenCV 3 Computer Vision with Python Cookbook
+    type: english
+-   date: '2018-01-31'
+    description: "Discover how to build advanced OpenCV3 projects with Python"
+    image: building-advanced-opencv3-projects-python-video.jpg
+    link: https://www.packtpub.com/application-development/building-advanced-opencv3-projects-python-video
+    title: Building Advanced OpenCV3 Projects with Python
+    type: video
+-   date: '2018-01-08'
+    description: "An expert’s guide to build computer vision applications"
+    image: advanced-opencv-3-video.jpg
+    link: https://www.packtpub.com/application-development/advanced-opencv-3-video
+    title: Advanced OpenCV 3
+    type: video
+-   date: '2018-01-01'
+    description: "Learn the techniques for object recognition, 3D reconstruction, stereo imaging, and other computer vision applications using examples on different functions of OpenCV."
+    image: opencv-3x-python-example-second-edition.jpg
+    link: https://www.packtpub.com/application-development/opencv-3x-python-example-second-edition
+    title: OpenCV 3.x with Python By Example - Second Edition
+    type: english
+-   date: '2018-01-01'
+    description: "Blend the power of Qt with OpenCV to build cross-platform computer vision applications"
+    image: computer-vision-opencv-3-and-qt5.jpg
+    link: https://www.packtpub.com/application-development/computer-vision-opencv-3-and-qt5
+    title: Computer Vision with OpenCV 3 and Qt5
+    type: english
 -   date: '2017-12-08'
-    description: Apprenez  par l'exemple à utiliser OpenCV pour traiter des images et des flux vidéo.
+    description: "Apprenez  par l'exemple à utiliser OpenCV pour traiter des images et des flux vidéo."
     image: traitement-d-images-et-de-videos-avec-opencv-3.jpg
     link: https://www.d-booker.fr/opencv/510-traitement-d-images-et-de-videos-avec-opencv-3.html
     title: Traitement d'images et de vidéos avec OpenCV 3 en C++ (Windows, Linux, Raspberry) [French]
     type: foreign
+-   date: '2017-08-31'
+    description: "Master the art of creating practical end-to-end projects using OpenCV’s powerful computer vision applications"
+    image: opencv-3-advanced-photo-manipulation-video.jpg
+    link: https://www.packtpub.com/application-development/opencv-3-advanced-photo-manipulation-video
+    title: OpenCV 3 Advanced Photo Manipulation
+    type: video
 -   date: '2017-07-31'
     description: "Boost your knowledge of Computer Vision and image processing by developing real-world projects in OpenCV 3."
     image: Practical-OpenCV-3-Image-Processing-with-Python.jpg
@@ -16,12 +58,6 @@
     image: OpenCV-3-Advanced-Topics-in-CVAP.jpg
     link: https://www.packtpub.com/application-development/opencv-3-%E2%80%93-advanced-topics-cvap-video
     title: OpenCV 3 – Advanced Topics in CVAP
-    type: video
--   date: '2017-07-20'
-    description: "These videos explain computer vision applications in a step-by-step manner. You’ll get a walkthrough of several projects from the concept and approach through to an efficient implementation with OpenCV3. Each project will show OpenCV3 used within a specific goal-oriented context."
-    image: OpenCV-3-Advanced-Photo-Manipulation.jpg
-    link: https://www.packtpub.com/application-development/opencv-3-advanced-photo-manipulation-video
-    title: OpenCV 3 Advanced Photo Manipulation
     type: video
 -   date: '2017-07-14'
     description: "Machine Learning for OpenCV begins by introducing you to the essential concepts of statistical learning, such as classification and regression. Once all the basics are covered, you will start exploring various algorithms such as decision trees, support vector machines, and Bayesian networks, and learn how to combine them with other OpenCV functionality. As the book progresses, so will your Machine Learning skills, until you are ready to take on today's hottest topic in the field: Deep Learning."
