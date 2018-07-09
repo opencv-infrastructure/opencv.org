@@ -1,4 +1,16 @@
 ---
+-   date: '2018-05-21'
+    description: "A practical introduction to the world of machine learning and image processing using OpenCV and Python"
+    image: machine-learning-opencv-advanced-video.jpg
+    link: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv-%E2%80%93-advanced-methods-and-deep-learning-vide
+    title: "Machine Learning for OpenCV – Advanced Methods and Deep Learning"
+    type: video
+-   date: '2018-04-30'
+    description: "Learn the core concepts of the OpenCV and Machine Learning"
+    image: machine-learning-opencv-supervised-learning-video.jpg
+    link: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv-supervised-learning-video
+    title: "Machine Learning for OpenCV - Supervised Learning"
+    type: video
 -   date: '2018-04-09'
     description: "OpenCV Object Recognition: Harness Deep Learning in OpenCV"
     image: object-detection-and-recognition-using-deep-learning-opencv-video.jpg

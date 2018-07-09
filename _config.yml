@@ -2,7 +2,7 @@
 title: OpenCV library
 email: admin@opencv.org
 description: Official OpenCV library site
-baseurl: ""
+# baseurl: ""
 url: "http://opencv.org"
 twitter_username: opencvlibrary
 github_username:  opencv
@@ -42,3 +42,4 @@ link_youtube: "https://www.youtube.com/user/opencvdev"
 link_forum: "http://answers.opencv.org"
 link_docs: "http://docs.opencv.org"
 link_ci: "http://pullrequest.opencv.org"
+link_dl: "http://dl.opencv.org"

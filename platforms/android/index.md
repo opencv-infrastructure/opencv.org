@@ -35,7 +35,7 @@ If you need additional information on OpenCV usage models, you can check this [p
 #### OpenCV4Android documentation:
 
 - Tutorials: ["Introduction into Android Development"]({{ site.link_docs }}/2.4/doc/tutorials/introduction/android_binary_package/android_dev_intro.html), ["OpenCV for Android SDK"]({{ site.link_docs }}/2.4/doc/tutorials/introduction/android_binary_package/O4A_SDK.html "OpenCV for Android SDK"), ["Android development with OpenCV"]({{ site.link_docs }}/2.4/doc/tutorials/introduction/android_binary_package/dev_with_OCV_on_Android.html).
-- Documentation on "OpenCV Manager": please check these [slides](http://dl.opencv.org/present/ECCV2012%20-%20OpenCV4Android.pdf).
+- Documentation on "OpenCV Manager": please check these [slides]({{ site.link_dl }}/present/ECCV2012%20-%20OpenCV4Android.pdf).
 - Javadoc html-files are included into the distribution and available [online]({{ site.link_docs }}/java/2.4.11/).
 - [Android Samples]({{ site.baseurl }}{% link platforms/android/opencv4android-samples.html %})
 - [Android Best Practices]({{ site.baseurl }}{% link platforms/android/android-best-practices.html %})
