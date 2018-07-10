@@ -168,13 +168,13 @@
 -   date: '2011-05-01'
     description: Cookbook application examples, C++ version of OpenCV 2.0.
     image: 1407134383OpenCV2.0Cookbook.jpg
-    link: http://www.amazon.com/gp/product/1849513244/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1849513244&linkCode=as2&tag=opencv00-20
+    link: https://www.packtpub.com/application-development/opencv-2-computer-vision-application-programming-cookbook
     title: OpenCV 2 Computer Vision Application Programming Cookbook
     type: english
 -   date: '2015-05-01'
     description: Design, simulate, program, and prototype an interactive autonomous mobile robot from scratch with the help of Python, ROS, and OpenCV!
     image: 14423943907536OS_mockupcover.jpg
-    link: http://www.amazon.com/gp/product/1783287535/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1783287535&linkCode=as2&tag=opencv00-20&linkId=ZI7ZIQLU5K2F7UDC
+    link: https://www.packtpub.com/application-development/learning-robotics-using-python
     title: Learning Robotics Using Python
     type: mention
 -   date: '2011-12-13'
@@ -190,7 +190,7 @@
         as the various different functions of the OpenCV library via small programming
         projects with simple, detailed explanations.
     image: 1407134225opencv_instant.jpg
-    link: http://www.amazon.com/gp/product/1782168818/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1782168818&linkCode=as2&tag=opencv00-20&linkId=66VYDCBCB6TJADX5
+    link: https://www.packtpub.com/application-development/instant-opencv-starter-instant
     title: Instant OpenCV Starter
     type: english
 -   date: '2015-07-01'
@@ -198,7 +198,7 @@
         skills by learning the latest features of OpenCV Android application programming,
         then this book is for you.
     image: 14423959708204OS_MasteringOpenCVAndroidProgramming.jpg
-    link: http://www.amazon.com/gp/product/1783988207/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1783988207&linkCode=as2&tag=opencv00-20&linkId=5ZZ4D37T7PIYPILY
+    link: https://www.packtpub.com/application-development/mastering-opencv-android-application-programming
     title: Mastering OpenCV Android Application Programming
     type: english
 -   date: '2015-06-01'
@@ -207,7 +207,7 @@
         to capture, manipulate, and analyze images while building an application that
         combines photography and augmented reality.
     image: 14423948855387OS_AndroidApplicationProgrammingwithOpenCV3_.jpg
-    link: http://www.amazon.com/gp/product/1785285386/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1785285386&linkCode=as2&tag=opencv00-20&linkId=2M4CJ6BCZTOPSJIO
+    link: https://www.packtpub.com/application-development/android-application-programming-opencv-3
     title: Android Application Programming with OpenCV 3
     type: english
 -   date: '2014-06-19'
@@ -220,7 +220,7 @@
     description: Over 90 highly-effective recipes to unleash your creativity with
         interactive art, graphics, computer vision, 3D, and more.
     image: 1407135469processingCreativeProgrammingCookbookLow.jpg
-    link: http://www.amazon.com/gp/product/1849517940/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1849517940&linkCode=as2&tag=opencv00-20
+    link: https://www.packtpub.com/hardware-and-creative/processing-2-creative-programming-cookbook
     title: 'Processing 2: Creative Programming Cookbook'
     type: mention
 -   date: '2015-03-01'
@@ -228,7 +228,7 @@
         of image processing with OpenCV, then this book is for you. A basic understanding
         of image processing is required.
     image: 14423955757659OS_LearningImageProcessingwithOpenCV.jpg
-    link: http://www.amazon.com/gp/product/1783287659/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1783287659&linkCode=as2&tag=opencv00-20&linkId=IEQ5DXYTG7T4X2M7
+    link: https://www.packtpub.com/application-development/learning-image-processing-opencv
     title: Learning Image Processing with OpenCV
     type: english
 -   date: '2015-10-01'
@@ -245,7 +245,7 @@
         Emgu CV, with a wide variety of topics covered, from working with images and
         shape detection to creating a panorama from a series of images.
     image: 140731174061t0O9aNHqL.jpg
-    link: http://www.amazon.com/gp/product/1783559527/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1783559527&linkCode=as2&tag=opencv00-20&linkId=MYZS4BLKNN3QB7KA
+    link: https://www.packtpub.com/application-development/emgu-cv-essentials
     title: Emgu CV Essentials
     type: english
 -   date: '2016-06-30'
@@ -259,7 +259,7 @@
 -   date: '2013-09-01'
     description: The 6th chapter of this book is devoted to using OpenCV in ROS.
     image: 1407401869514WFZKb1L.jpg
-    link: http://www.amazon.com/gp/product/1782161449/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1782161449&linkCode=as2&tag=opencv00-20&linkId=XRWHFPVNXXTQSEUQ
+    link: https://www.packtpub.com/hardware-and-creative/learning-ros-robotics-programming
     title: Learning ROS for Robotics Programming
     type: mention
 -   date: '2011-01-01'
@@ -280,7 +280,7 @@
         the setup and description of the library, this book teaches you how to add
         graphical user interface capabilities to OpenCV programs.
     image: 14072457934244OS_mockupcover_normal.jpg
-    link: http://www.amazon.com/gp/product/1783984244/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1783984244&linkCode=as2&tag=opencv00-20&linkId=OLTKMVRBHGJALM6X
+    link: https://www.packtpub.com/application-development/opencv-essentials
     title: OpenCV Essentials
     type: english
 -   date: '2015-07-01'
@@ -290,7 +290,7 @@
         OpenCV, you will also find this book very useful for migrating your applications
         to Java.
     image: 14423951243972OS.jpg
-    link: http://www.amazon.com/gp/product/1783283971/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1783283971&linkCode=as2&tag=opencv00-20&linkId=SWCJGMAGV6RTWCST
+    link: https://www.packtpub.com/application-development/opencv-30-computer-vision-java
     title: OpenCV 3.0 Computer Vision with Java
     type: english
 -   date: '2012-02-02'
@@ -333,7 +333,7 @@
         into a GUI application. This book helps you to learn how to build a simple,
         but powerful computer vision application for the iOS devices from scratch.
     image: 1407133974instant_ios_book.jpg
-    link: http://www.amazon.com/gp/product/1782163840/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1782163840&linkCode=as2&tag=opencv00-20
+    link: https://www.packtpub.com/application-development/instant-opencv-ios
     title: Instant OpenCV for iOS
     type: english
 -   date: '2015-09-01'
@@ -355,14 +355,14 @@
 -   date: '2012-12-01'
     description: Detailed tutorials & full-source code for 9 projects (Augmented Reality, SfM, OCR, AAM & POSIT, 2D & 3D Face Tracking, Face Recognition, Kinect, Mobile), using C++ version of OpenCV 2.4.2 or newer. Latest code is available at <https://github.com/MasteringOpenCV/code> (Assumes you already know how to use OpenCV).
     image: 1407134463MasteringOpenCV.jpg
-    link: http://www.amazon.com/gp/product/1849517827/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1849517827&linkCode=as2&tag=opencv00-20
+    link: https://www.packtpub.com/application-development/mastering-opencv-practical-computer-vision-projects
     title: Mastering OpenCV with Practical Computer Vision Projects
     type: english
 -   date: '2014-08-01'
     description: Over 50 recipes to help you build computer vision applications
         in C++ using the OpenCV library with this book.
     image: 142477164251fmB927VrL._SX258_BO1204203200_.jpg
-    link: http://www.amazon.com/gp/product/1782161481/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1782161481&linkCode=as2&tag=opencv00-20&linkId=K2KOCPCMLHNJ2JVB
+    link: https://www.packtpub.com/application-development/opencv-computer-vision-application-programming-cookbook-second-edition
     title: OpenCV Computer Vision Application Programming Cookbook, 2nd Edition
     type: english
 -   date: '2012-05-09'
@@ -403,7 +403,7 @@
         \ with standard Android functionality for layout, event handling, and data\
         \ sharing, and how to integrate with OpenGL for rendering."
     image: 1407134047android_opencv_book.jpg
-    link: http://www.amazon.com/gp/product/1849695202/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1849695202&linkCode=as2&tag=opencv00-20&linkId=35SFJUFANSUDQRWK
+    link: https://www.packtpub.com/application-development/android-application-programming-opencv
     title: Android Application Programming with OpenCV
     type: english
 -   date: '2016-01-31'
@@ -421,7 +421,7 @@
         development. Even experienced users of OpenCV will discover new ideas and
         techniques in the book's projects."
     image: 142303679851F1qlKV8iL.jpg
-    link: http://www.amazon.com/gp/product/1783287373/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1783287373&linkCode=as2&tag=opencv00-20&linkId=A3LG2Z7XXV6N3R3Z
+    link: https://www.packtpub.com/application-development/opencv-secret-agents
     title: OpenCV for Secret Agents
     type: english
 -   date: '2015-09-01'
@@ -484,7 +484,7 @@
     description: A practical, project-based tutorial for Python developers and
         hobbyists who want to get started with computer vision with OpenCV and Python.
     image: 1407134299OpenCVPython20131.jpg
-    link: http://www.amazon.com/gp/product/B00CHMQ8L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00CHMQ8L4&linkCode=as2&tag=opencv00-20
+    link: https://www.packtpub.com/application-development/opencv-computer-vision-python
     title: OpenCV Computer Vision with Python
     type: english
 -   date: '2012-06-29'

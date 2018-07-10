@@ -1,0 +1,17 @@
+<div class="book-body">
+  <img src="{{ site.baseurl }}/assets/books/{{ include.b.image }}" alt="Book cover: {{ include.b.title }}"/>
+  <p>
+    {% case include.b.type %}
+      {% when 'english' %}
+      <i class="fa fa-book"></i>
+      {% when 'video' %}
+      <i class="fa fa-video-camera"></i>
+      {% when 'mention' %}
+      <i class="fa fa-commenting-o"></i>
+      {% when 'foreign' %}
+      <i class="fa fa-globe"></i>
+    {% endcase %}
+    <a href="{{ include.b.link }}">{{ include.b.title }}</a>
+  <p>
+  <p>{{ include.b.description | markdownify }}</p>
+</div>
