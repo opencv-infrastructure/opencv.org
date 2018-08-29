@@ -549,4 +549,13 @@
     win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.2/opencv-3.4.2-vc14_vc15.exe/download
     ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/3.4.2/opencv-3.4.2-ios-framework.zip/download
     android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/3.4.2/opencv-3.4.2-android-sdk.zip/download
+-   version: 3.4.3
+    tag: 3.4.3
+    date: 2018-08-29 19:00:00 +0300
+    doc: http://docs.opencv.org/3.4.3
+    javadoc:
+    src: https://github.com/opencv/opencv/archive/3.4.3.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.3/opencv-3.4.3-vc14_vc15.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/3.4.3/opencv-3.4.3-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/3.4.3/opencv-3.4.3-android-sdk.zip/download
     latest: true
