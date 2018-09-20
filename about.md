@@ -99,7 +99,7 @@ Already have some code that you want to see as a part of the library? Please fol
 
 - If you need a simple task to start from, please consider [these ones]({{ site.link_gh }}/opencv/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy). They are simple enough, so you can get familiar with the [contribution process]({{ site.link_wiki }}/How_to_contribute).
 
-- Contribute code: it has to be [BSD]({{ site.baseurl }}{% link license.md %}) and should not add extra dependencies. More information about a code submission is available on our developer site: [contribution guide]({{ site.link_wiki }}/How_to_contribute) and [coding style guide]({{ site.link_wiki }}/Coding_Style_Guide).
+- Contribute code: it has to be [BSD]({{ site.baseurl }}{% link license.html %}) and should not add extra dependencies. More information about a code submission is available on our developer site: [contribution guide]({{ site.link_wiki }}/How_to_contribute) and [coding style guide]({{ site.link_wiki }}/Coding_Style_Guide).
 
 - Test our latest code from the [Git repository]({{ site.link_gh }}/opencv) and report/fix any bugs you find. [Reporting bugs]({{ site.link_wiki }}#creating-new-tickets).
 
