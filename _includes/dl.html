@@ -1,0 +1,6 @@
+{% assign releases = site.data.releases | where:"tag",include.version %}
+{% assign r = releases.first %}
+{% unless r %}
+    {% include error_no_such_release %}
+{% endunless %}
+{% include release.html dl=true release=r %}
