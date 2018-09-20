@@ -559,3 +559,13 @@
     ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/3.4.3/opencv-3.4.3-ios-framework.zip/download
     android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/3.4.3/opencv-3.4.3-android-sdk.zip/download
     latest: true
+-   version: 4.0.0-alpha
+    tag: 4.0.0-alpha
+    date: 2018-09-19 19:31:00 +0300
+    doc: http://docs.opencv.org/4.0.0-alpha
+    javadoc:
+    src: https://github.com/opencv/opencv/archive/4.0.0-alpha.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/4.0.0-alpha/opencv-4.0.0-alpha-vc14_vc15.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/4.0.0-alpha/opencv-4.0.0-alpha-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/4.0.0-alpha/opencv-4.0.0-alpha-android-sdk.zip/download
+    latest: true
