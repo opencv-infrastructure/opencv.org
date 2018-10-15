@@ -1,0 +1,68 @@
+---
+date: 2018-10-16 11:00:00 +0300
+layout: post
+permalink: opencv-4-0-0-beta.html
+published: true
+short: "OpenCV 4.0-beta and OpenVINO toolkit components have been released"
+title: New OpenCV 4.0 Beta & OpenVINO™ toolkit
+---
+
+<p>Dear OpenCV Community,</p>
+
+<p>We are glad to announce that OpenCV 4.0 Beta is now available, which includes many new features and enhancements. Along with this new library, are new open source tools to help fast-track high performance computer vision development and deep learning inference in OpenVINO™ toolkit (Open Visual Inference and Neural Network Optimization). More details about these releases and where to download follow.</p>
+
+<h3>OpenCV 4.0 Beta—What’s New</h3>
+
+<p>OpenCV 4.0 Beta includes 29 new patches, including massive merges from 3.4 branch, since OpenCV 4.0 alpha (<a href="https://opencv.org/opencv-4-0-0-alpha.html">https://opencv.org/opencv-4-0-0-alpha.html</a>):
+<ul>
+<li>ONNX* (Open Neural Network Exchange) importer has been further improved to support more topologies.</li>
+<li>OpenCV DNN sample object_detection.py has been improved to fill in the right model parameters, so it’s much easier to use now.</li>
+<li>G-API (Graph API) - super-efficient image processing pipeline engine has been integrated as <a href="https://github.com/opencv/opencv/tree/master/modules/gapi">opencv_gapi module</a></li>
+<li>Fast QR code decoder, based on free QUirc (<a href="https://github.com/dlbeer/quirc">https://github.com/dlbeer/quirc</a>) library has been integrated, so now we have a complete QR-code detection and decoding pipeline (that runs ~20-80FPS @ 640x480 resolution).</li>
+<li>18 functions, over 60 kernels have been accelerated for AVX2 using “wide universal intrinsics.”</li>
+<li>Kinect Fusion algorithm has been accelerated for iGPU, which resulted in ~3x speedup over parallel CPU version on high-resolution volume (512x512x512).</li>
+</ul>
+The release should be quite stable, but more changes are expected by OpenCV 4.0 gold.</p>
+
+<h3>Contributors</h3>
+
+<p>Big thanks to everybody who contributed (here is the incomplete list of patch authors; please, report if you contributed but do not see your name here):</p>
+
+<h4>opencv</h4>
+
+<p>Alexander Alekhin, Hamdi Sahloul, Dmitry Kurtaev, Suleyman TURKMEN, Tomoaki Teshima, Vitaly Tuzov, Maksim Shabunin, Dmitry Matveev, Sayed Adel, Adam Radomski, Apoorv Goel, Pavel Rojtberg, Rostislav Vasilikhin, Alexander Duda, Alexander Nesterov, Andrew Mroczkowski, Antonio Borondo, Anush Elangovan, Georgy Mironov, Loic Devulder, Loic Petit, Lubov Batanina, Menghui Xie, Peter Rekdal Sunde, Peter Whidden, Reid Kleckner, Sam Radhakrishnan, berak, chacha21, drkoller, soonbro, take1014, tellowkrinkle, tompollok</p>
+
+<h4>opencv_contrib</h4>
+
+<p>Hamdi Sahloul, Tomoaki Teshima, Alexander Alekhin, Pavel Rojtberg, Maksim Shabunin, berak, soyer, Lubos, Rostislav Vasilikhin, Antonio Borondo, Jeff Bail, LaurentBerger, Sayed Adel, Suleyman TURKMEN, tompollok</p>
+
+<h3>Download</h3>
+
+{% include dl.html version="4.0.0-beta" %}
+
+
+<img class="center" width="50%" src="{{ site.baseurl }}{% link assets/news/openvino.png %}" alt="OpenVINO logo"/>
+
+<h3>Intel Releases Open Source Tools to Accelerate Computer Vision & Deep Learning</h3>
+
+<p>Intel announces that OpenVINO™ toolkit is now open sourced. This developer toolkit provides flexibility and availability to the developer community to accelerate development of vision capabilities and AI end-to-end across device to network and cloud. The toolkit enables high performance computer vision and deep learning inference with easy heterogeneous execution across multiple types of Intel® platforms. It includes:</p>
+
+<ul>
+
+<li>The Deep Learning Deployment Toolkit helps enable fast, heterogeneous deep learning inferencing for Intel® processors (CPU and GPU/ Intel® Processor Graphics), and supports more than 100 public and custom models.
+<ul>
+<li>Download now: <a href="https://github.com/opencv/dldt">https://github.com/opencv/dldt</a></li>
+<li><a href="https://software.intel.com/en-us/articles/OpenVINO-InferEngine">Inference Engine Developer Guide</a></li>
+</ul>
+</li>
+
+<li>Open Model Zoo includes 20+ pre-trained deep learning models to expedite development and improve deep learning inference on Intel® processors, along with many samples to easily get started.
+<ul>
+<li>Download now: <a href="https://github.com/opencv/open_model_zoo">https://github.com/opencv/open_model_zoo</a></li>
+</ul>
+</li>
+</ul>
+
+<p>Learn more at <a href="https://01.org/openvinotoolkit">https://01.org/openvinotoolkit</a></p>
+
+<p>Note: <a href="https://software.intel.com/distribution-of-openvino-toolkit">The Intel® Distribution of OpenVINO™ toolkit</a> will still be available as free commercial product and includes additional, proprietary support for Intel® FPGAs, Intel® Movidius™ Neural Compute Stick, and traditional computer vision functions and libraries</p>

@@ -568,4 +568,13 @@
     win: https://sourceforge.net/projects/opencvlibrary/files/4.0.0-alpha/opencv-4.0.0-alpha-vc14_vc15.exe/download
     ios: https://sourceforge.net/projects/opencvlibrary/files/4.0.0-alpha/opencv-4.0.0-alpha-ios-framework.zip/download
     android:
+-   version: 4.0.0-beta
+    tag: 4.0.0-beta
+    date: 2018-10-15 20:31:53 +0000
+    doc: http://docs.opencv.org/4.0.0-beta
+    javadoc:
+    src: https://github.com/opencv/opencv/archive/4.0.0-beta.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/4.0.0-beta/opencv-4.0.0-beta-vc14_vc15.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/4.0.0-beta/opencv-4.0.0-beta-ios-framework.zip/download
+    android:
     latest: true
