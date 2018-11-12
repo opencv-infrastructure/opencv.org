@@ -3,24 +3,24 @@ date: 2018-11-12 11:00:00 +0300
 layout: post
 permalink: opencv-4-0-0-rc.html
 published: true
-short: "OpenCV 4.0 release candidate is ready"
+short: "Getting closer: OpenCV 4.0 release candidate is out"
 title: OpenCV 4.0 release candidate
 ---
 
-<p>This version is a first 4.0 release candidate.</p>
+<p>We've just released a very close approximation of OpenCV 4.0, the release candidate.</p>
 
 <p>OpenCV 4.0 RC includes ~60 <a href="https://github.com/opencv/opencv/pulls?page=1&q=is%3Apr+merged%3A2018-10-17..2018-11-12+base%3Amaster&utf8=%E2%9C%93">new patches</a> since <a href="{{ site.baseurl }}{% link _posts/2018-10-16-opencv-4-0-0-beta.html %}">OpenCV 4.0 beta</a>:
 <ul>
-<li>Experimental Vulcan backend have been added to the <i>dnn</i> module
-<li><i>stitching</i> module interface has been refactored
-<li>More accurate camera calibraion method have been implemented
-<li>Persistence part of the <i>core</i> module (storing data in XML/YML/JSON formats) has been rewritten in C++
-<li>Graph API module has been extended: it recieved initial heterogenity support, OpenCL support, better documentation, ability to build it standalone
-<li>More obsolete C-API has been removed: <i>photo</i>, <i>video</i>, <i>imgcodecs</i>, <i>videoio</i>
+<li>Experimental Vulcan backend have been added to the <i>dnn</i> module, thanks to Zhiwen Wu and Juan J. Zhao.
+<li><i>opencv_stitching</i> module interface has been refactored, thanks to Jiri Horner.
+<li>More accurate camera calibraion method have been implemented, thanks to Wenfeng CAI.
+<li>Persistence part of the <i>core</i> module (storing data in XML/YML/JSON formats) has been rewritten in C++ and consumes less memory when reading FileStorage's. The C API (CvFileStorage) has been removed.
+<li>Graph API module has been extended: it recieved initial heterogenity support, OpenCL support, better documentation, ability to build it standalone. Thanks to Dmitry Matveev, Dmitry Budnikov and other G-API folks!
+<li>Some more of obsolete C-API has been removed in the following modules: <i>photo</i>, <i>video</i>, <i>imgcodecs</i>, <i>videoio</i>
 <li>Dropped obsolete <i>videoio</i> and <i>highgui</i> backends: QuickTime, QTKit, Unicap, Video for Windows, libv4l, DC1394_V1, Carbon
 <li><i>shape</i>, <i>superres</i>, <i>videostab</i>, <i>viz</i> modules and TVL1 optical flow algorithm were moved to <i>opencv_contrib</i>
-<li>DIS optical flow algorithm moved to main repository
-<li>Merges from 3.4 branch include updated libpng, XCode 10 support, Turing GPU support, many optimizations and bug fixes
+<li>DIS optical flow algorithm, implemented by Alexander Bokov, has been moved to the main repository from <i>opencv_contrib</i>.
+<li>Some latest changes in 3.4 branch have been merged to the master, including updated libpng (security fixes), XCode 10 support, Turing GPU support, many optimizations and bug fixes
 </ul>
 
 </p>
