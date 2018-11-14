@@ -21,6 +21,7 @@ title: New OpenCV 4.0 Beta & OpenVINO™ toolkit
 <li>Fast QR code decoder, based on free QUirc (<a href="https://github.com/dlbeer/quirc">https://github.com/dlbeer/quirc</a>) library has been integrated, so now we have a complete QR-code detection and decoding pipeline (that runs ~20-80FPS @ 640x480 resolution).</li>
 <li>18 functions, over 60 kernels have been accelerated for AVX2 using “wide universal intrinsics.”</li>
 <li>Kinect Fusion algorithm has been accelerated for iGPU, which resulted in ~3x speedup over parallel CPU version on high-resolution volume (512x512x512).</li>
+<li>Implementation of The Fast Bilateral Solver made by <a href="https://github.com/THUKey">Kuan Wang</a> for GSoC 2017 has been integrated to <i>opencv_contrib</i>, thanks to <a href="https://github.com/berak">@berak</a>
 </ul>
 The release should be quite stable, but more changes are expected by OpenCV 4.0 gold.</p>
 
