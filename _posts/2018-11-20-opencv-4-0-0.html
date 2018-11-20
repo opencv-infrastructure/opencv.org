@@ -1,0 +1,49 @@
+---
+date: 2018-11-20 13:00:00 +0300
+layout: post
+permalink: opencv-4-0-0.html
+published: true
+short: "Finally! OpenCV 4.0 has been released"
+title: OpenCV 4.0
+---
+
+<p>After almost 3.5 years since groundbreaking 3.0 release, we are glad to present the first stable release in the 4.x line.</p>
+
+<h4>Release highlights:</h4>
+<p>
+<ul>
+<li>OpenCV is now C++11 library and requires C++11-compliant compiler. Minimum required CMake version has been raised to 3.5.1.
+<li>A lot of C API from OpenCV 1.x has been removed.
+<li>Persistence (storing and loading structured data to/from XML, YAML or JSON) in the <i>core</i> module has been completely reimplemented in C++ and lost the C API as well.
+<li>New module G-API has been added, it acts as an engine for very efficient graph-based image procesing pipelines.
+<li><i>dnn</i> module now includes experimental Vulkan backend and supports networks in ONNX format.
+<li>The popular Kinect Fusion algorithm has been implemented and optimized for CPU and GPU (OpenCL)
+<li>QR code detector and decoder have been added to the <i>objdetect</i> module
+<li>Very efficient and yet high-quality DIS dense optical flow algorithm has been moved from opencv_contrib to the <i>video</i> module.
+<li>More details can be found in previous announces: <a href="{{ site.baseurl }}{% link _posts/2018-09-20-opencv-4-0-0-alpha.html %}">4.0-alpha</a>, <a href="{{ site.baseurl }}{% link _posts/2018-10-16-opencv-4-0-0-beta.html %}">4.0-beta</a>, <a href="{{ site.baseurl }}{% link _posts/2018-11-12-opencv-4-0-0-rc.html %}">4.0-rc</a> and in the <a href="{{ site.link_wiki }}/ChangeLog#version400">changelog</a>
+</ul>
+</p>
+
+<p>Branch 3.4 will be switched to maintanence mode: only bugfixes and light features will be accepted. <b>BTW, release 3.4.4 is ready too!</b></p>
+
+<p>For those who have not took part in the <a href="{{ site.baseurl }}{% link _posts/2018-11-14-survey-2018.html %}">OpenCV 2018 survey</a> yet, feel free to share your thoughts.</p>
+
+<h3>Contributors</h3>
+
+<p>Big thanks to everybody who contributed (here is the incomplete list of patch authors; please, report if you contributed but do not see your name here):</p>
+
+<h4>opencv</h4>
+
+Alexander Alekhin, Dmitry Kurtaev, Hamdi Sahloul, Maksim Shabunin, Vitaly Tuzov, berak, Tomoaki Teshima, Vadim Pisarevsky, catree, Suleyman TURKMEN, Sayed Adel, Alexander Nesterov, Pavel Rojtberg, Rostislav Vasilikhin, Dmitry Matveev, Kuang Fangjun, Li Peng, Wu Zhiwen, take1014, cyy, yuki takehara, Evgeny Latkin, LaurentBerger, cclauss, Apoorv Goel, Karpushin Vladislav, Lubov Batanina, Michał Janiszewski, Namgoo Lee, Ruslan Garnov, Wenfeng CAI, k-shinotsuka, shengyu, tompollok, Adam Radomski, Alexander Duda, Alexander Enaldiev, Andrew Mroczkowski, Antonio Borondo, AsyaPronina, Dmitry Budnikov, George Mironov, Jiri Horner, Mansoo Kim, Mark Harfouche, Pavel Vlasov, Peter Rekdal Sunde, Sean McBride, Vlad Karpushin, Vladislav Sovrasov, fegorsch, gkaneto, luz.paz, pasbi, Adam Rankin, Alessandro de Oliveira Faria (A.K.A.CABELO), Alexey Nikolaev, Ali Yasin Eser, Anush Elangovan, Apoorv, Arnaud Brejeon, Bahram Dahi, CJ Smith, CYTing1998, Christopher Gundler, Colin Smith, Damien Picard, David, Diego Barrios Romero, Emanuele Ruffaldi, Fangjun Kuang, Florian Echtler, Forrest Reiling, Gaetano Checinski, Georgy Mironov, HarshDolhare, Henry, Hiro Kobayashi, Ilari Venäläinen, Ivan Pozdeev, Jakub Golinowski, Jean Carass, Kaartic Sivaraam, Khem Raj, Kyle D. Patterson, Latkin, Yevgeny I, Li, Peng, Loic Devulder, Loic Petit, Lucas Teixeira, Marat K, Marco A. Gutierrez, Matt Bennett, Maxim Smirnov, Menghui Xie, Michael Firman, Nesterov Alexander, Nobuo Tsukamoto, Patrick Cox, Paul Jurczak, Paul Shin, Paul92, Peter Jozsa, Peter Leitzen, Peter Whidden, Philipp Hasper, Pierre Jeambrun, Reid Kleckner, Ryan Wong, Sacha, Sam Radhakrishnan, Sancho McCann, Sergey Nuzhny, Simon Que, Spark Echo, Takuho NAKANO, Teng Yiliang, Todor Tomov, Triplesalt, Vlad Kraevskiy, WuZhiwen, Zhenqing Hu, abhi-jha, amatyuko, asciian, branka-plateiq, cDc, cabelo, chacha21, drkoller, exoson, gineshidalgo99, gnthibault, huangqinjin, ilovezfs, jasjuang, jsxyhelu, kamino410, logic1988, lqy123000, matech96, maver1, miaow1988, rockzhan, root, soonbro, ssnover95, tellowkrinkle, unknown, vishwesh5, wanghanmin, woody.chow, yom, zarelaky, zuoshaobo
+
+<h4>opencv_contrib</h4>
+
+Alexander Alekhin, Hamdi Sahloul, Pavel Rojtberg, LaurentBerger, Tomoaki Teshima, berak, Maksim Shabunin, Vadim Pisarevsky, Rostislav Vasilikhin, Suleyman TURKMEN, Jukka Komulainen, soyer, tompollok, Lubos, Vitaly Tuzov, catree, Anton Shutikhin, Antonio Borondo, Colin, Dietrich Büsching, Jan Beich, Jeff Bail, Jiri Horner, Khem Raj, Kushashwa Ravi Shrimali, Li-Chi Huang, Mohammad Haghighat, Sayed Adel, SongChiYoung, Unknown, Varvrar, Vladislav Sovrasov, YTY, bini, d.bouron, dianlujitao fegorsch, gdemarcq, gmedan, kartoffelsalat, simonreich, trobro, yarglawaldeg,
+
+<h3>Download 4.0</h3>
+
+{% include dl.html version="4.0.0" %}
+
+<h3>Download 3.4.4</h3>
+
+{% include dl.html version="3.4.4" %}

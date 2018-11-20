@@ -553,37 +553,45 @@
     tag: 3.4.3
     date: 2018-08-29 16:13:00 +0300
     doc: http://docs.opencv.org/3.4.3
-    javadoc:
     src: https://github.com/opencv/opencv/archive/3.4.3.zip
     win: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.3/opencv-3.4.3-vc14_vc15.exe/download
     ios: https://sourceforge.net/projects/opencvlibrary/files/opencv-ios/3.4.3/opencv-3.4.3-ios-framework.zip/download
     android: https://sourceforge.net/projects/opencvlibrary/files/opencv-android/3.4.3/opencv-3.4.3-android-sdk.zip/download
+-   version: 3.4.4
+    tag: 3.4.4
+    date: 2018-11-17 16:33:00 +0300
+    doc: http://docs.opencv.org/3.4.4
+    src: https://github.com/opencv/opencv/archive/3.4.4.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/3.4.4/opencv-3.4.4-vc14_vc15.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/3.4.4/opencv-3.4.4-ios-framework.zip/download
+    android: https://sourceforge.net/projects/opencvlibrary/files/3.4.4/opencv-3.4.4-android-sdk.zip/download
     latest: true
 -   version: 4.0.0-alpha
     tag: 4.0.0-alpha
     date: 2018-09-20 15:26:00 +0300
     doc: http://docs.opencv.org/4.0.0-alpha
-    javadoc:
     src: https://github.com/opencv/opencv/archive/4.0.0-alpha.zip
     win: https://sourceforge.net/projects/opencvlibrary/files/4.0.0-alpha/opencv-4.0.0-alpha-vc14_vc15.exe/download
     ios: https://sourceforge.net/projects/opencvlibrary/files/4.0.0-alpha/opencv-4.0.0-alpha-ios-framework.zip/download
-    android:
 -   version: 4.0.0-beta
     tag: 4.0.0-beta
     date: 2018-10-16 09:45:00 +0300
     doc: http://docs.opencv.org/4.0.0-beta
-    javadoc:
     src: https://github.com/opencv/opencv/archive/4.0.0-beta.zip
     win: https://sourceforge.net/projects/opencvlibrary/files/4.0.0-beta/opencv-4.0.0-beta-vc14_vc15.exe/download
     ios: https://sourceforge.net/projects/opencvlibrary/files/4.0.0-beta/opencv-4.0.0-beta-ios-framework.zip/download
-    android:
 -   version: 4.0.0-rc
     tag: 4.0.0-rc
     date: 2018-11-13 01:03:00 +0300
     doc: http://docs.opencv.org/4.0.0-rc
-    javadoc:
     src: https://github.com/opencv/opencv/archive/4.0.0-rc.zip
     win: https://sourceforge.net/projects/opencvlibrary/files/4.0.0-rc/opencv-4.0.0-rc-vc14_vc15.exe/download
     ios: https://sourceforge.net/projects/opencvlibrary/files/4.0.0-rc/opencv-4.0.0-rc-ios-framework.zip/download
-    android:
+-   version: 4.0.0
+    tag: 4.0.0
+    date: 2018-11-18 15:46:00 +0300
+    doc: http://docs.opencv.org/4.0.0
+    src: https://github.com/opencv/opencv/archive/4.0.0.zip
+    win: https://sourceforge.net/projects/opencvlibrary/files/4.0.0/opencv-4.0.0-vc14_vc15.exe/download
+    ios: https://sourceforge.net/projects/opencvlibrary/files/4.0.0/opencv-4.0.0-ios-framework.zip/download
     latest: true
