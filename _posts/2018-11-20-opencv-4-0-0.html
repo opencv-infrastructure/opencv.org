@@ -48,3 +48,27 @@ Alexander Alekhin, Hamdi Sahloul, Pavel Rojtberg, LaurentBerger, Tomoaki Teshima
 <h3>Download 3.4.4</h3>
 
 {% include dl.html version="3.4.4" %}
+
+<img class="center" width="50%" src="{{ site.baseurl }}{% link assets/news/openvino.png %}" alt="OpenVINO logo"/>
+
+<p>OpenVINO™ toolkit components were updated to the R4 baseline:</p>
+<ul>
+  <li>The Deep Learning Deployment Toolkit changes:
+    <ul>
+      <li>A low precision, 8-bit integer (Int8) inference is a preview feature for Intel CPUs to achieve optimized runs.
+      <li>TensorFlow*, MXNet*, and ONNX* operations have enhanced support.
+      <li>Popular TensorFlow topologies such as the region-based fully convolutional network (R-FCN), Yolo version 3, and OpenPose.
+      <li>Try it now: <a href="https://github.com/opencv/dldt">https://github.com/opencv/dldt</a>
+    </ul>
+  <li>Open Model Zoo changes: 
+    <ul>
+      <li>Added three pretrained models to build compelling features in vision applications: <a href="https://github.com/opencv/open_model_zoo/blob/2018/intel_models/facial-landmarks-35-adas-0001/description/facial-landmarks-35-adas-0001.md">facial landmarks</a>, <a href="https://github.com/opencv/open_model_zoo/blob/2018/intel_models/human-pose-estimation-0001/description/human-pose-estimation-0001.md">human pose estimation</a>, and <a href="https://github.com/opencv/open_model_zoo/blob/2018/intel_models/single-image-super-resolution-0034/description/single-image-super-resolution-0034.md">image super resolution</a>.
+      <li>Added new demo applications: <a href="https://github.com/opencv/open_model_zoo/tree/2018/demos/human_pose_estimation_demo">human_pose_estimation_demo</a>, <a href="https://github.com/opencv/open_model_zoo/tree/2018/demos/object_detection_demo_yolov3_async">object_detection_demo_yolov3_async</a>, <a href="https://github.com/opencv/open_model_zoo/tree/2018/demos/pedestrian_tracker_demo">pedestrian_tracker_demo</a>, <a href="https://github.com/opencv/open_model_zoo/tree/2018/demos/super_resolution_demo">super_resolution_demo</a>.
+      <li>Added <a href="https://github.com/opencv/open_model_zoo/tree/2018/demos/python_demos/accuracy_checker">Accuracy Checker</a> tool that allows you to infer deep learning models and collect cumulative accuracy metrics against datasets.
+      <li><a href="https://github.com/opencv/open_model_zoo/tree/2018/model_downloader">Model downloader</a> configuration file is extended to support the following public models: ResNet-50, ResNet-101, ResNet-152, GoogleNet v3.
+      <li>Try it now: <a href="https://github.com/opencv/open_model_zoo">https://github.com/opencv/open_model_zoo</a>
+    </ul>
+</ul>
+
+<p>Learn more at <a href="https://01.org/openvinotoolkit">https://01.org/openvinotoolkit</a></p>
+
