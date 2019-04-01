@@ -4,7 +4,8 @@ title: Events
 type: page
 ---
 <ul class="post-list">
-  {% for post in site.events %}
+  {% assign reversed_events = site.events | reverse %}
+  {% for post in reversed_events %}
       <li>
         <a class="post-link" href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
         <br/>
