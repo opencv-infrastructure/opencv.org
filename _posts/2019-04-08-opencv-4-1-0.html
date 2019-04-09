@@ -1,0 +1,49 @@
+---
+date: 2019-04-09 14:09:00 +0300
+layout: post
+permalink: opencv-4-1-0.html
+published: true
+short: "OpenCV 4.1 has been released"
+title: OpenCV 4.1
+---
+
+<h3>Release highlights:</h3>
+
+<p>
+<ul>
+<li>Enabled runtime dispatched optimizations for larger set of functions in <i>core</i> and <i>imgproc</i> modules.
+<li><i>dnn</i> module has got several improvements:
+    <ul>
+    <li>Inference Engine backend has been switched to NN Builder API, supported Intel® Neural Compute Stick 2
+    <li>Reduced peak memory consumption and supported multiple new networks from TensorFlow
+    </ul>
+<li>Android Media NDK API support has been added to <i>videoio</i> module
+<li>Added several Perceptually Uniform Sequental colormaps
+<li>New Image Quality Analysis module (<i>quality</i>) has been added to the <i>opencv_contrib</i>, referenceless BRISQUE algorithm has been implemented as well as PSNR, SSIM and others
+<li>Robust Local Optical Flow algorithm has been added to <i>opencv_contrib/optflow</i> module
+<li>Quasi Dense Stereo matching algorithm has been implemented in <i>opencv_contrib/stereo</i> module
+<li>Added Hand-Eye Calibration methods
+</ul>
+More details can be found in <a href="https://github.com/opencv/opencv/wiki/ChangeLog#version410">the Changelog</a>
+</p>
+
+<p>Most of bugfixes and improvements have made their way to both <i>3.4</i> and <i>master</i> branches.</p>
+
+<h3>Contributors</h3>
+
+<p>Big thanks to everybody who contributed (here is the incomplete list of patch authors; please, report if you contributed but do not see your name here):</p>
+
+<h4>opencv</h4>
+
+Alexander Alekhin, Dmitry Kurtaev, Vitaly Tuzov, Maksim Shabunin, Namgoo Lee, Rostislav Vasilikhin, Quentin Chateau, Sayed Adel, smirnov-alexey, Alexander Nesterov, Alexey Smirnov, LaurentBerger, Giles Payne, Pavel Rojtberg, Andrey Golubev, Brad Kelly, Liubov Batanina, Ruslan Garnov, berak, catree, Christoph Rackwitz, Kohei Yoshida, Lee Jaehwan, Pedro Ferreira da Costa, Stefan Dragnev, Suleyman TURKMEN, Wu Zhiwen, klemens, npochhi, zuoshaobo, 103yiran, AKAMath, Adrian Renner, AnastasiaaSenina, Arnaud Brejeon, Augusto Fraga Giachero, Ayush Pandey, BALACHANDAR S, Bharat123Rox, CUI Hao (Lab), Christopher N. Hesse, David Carlier, Easton Liu, ExpandingDev, George Wilson, Gregor Mittag, Hannah McLaughlin, Jaewoo Song, Jim Zhou, JoeHowse, Josh Veitch-Michaelis, Juha Reunanen, Kangning Song, Lindsay Roberts, Lubov Batanina, Lucas Towers, Matthew K. Gumbel, Nicolae Rosia, Oleh, Otto Seiskari, Pierre Chatelier, RAJKIRAN NATARAJAN, Rajkiran Natarajan, Ramez Rafla, Raphael Graf, Richard Veale, Scott Ramsby, Thang Tran, Thomas Peters, WuZhiwen, atinfinity, cftang, iPanda, mehlukas, rpici, winice, x3lif
+
+<h4>opencv_contrib</h4>
+Namgoo Lee, Pavel Rojtberg, Alexander Alekhin, clunietp, Hamdi Sahloul, Maksim Shabunin, Raphael Graf, Charles Taylor, Dimitrios Psychogyios, Dmitry Kurtaev, JoeHowse, Julian Seuffert, Richard Veale, Sreejith S, Ted Steiner, Tomoaki Teshima, berak, iindovina, kushashwa ravi shrimali, shimat, tsenst, utkarshg6
+
+<h3>Download 4.1</h3>
+
+{% include dl.html version="4.1.0" %}
+
+<h3>Download 3.4.6</h3>
+
+{% include dl.html version="3.4.6" %}
